@@ -1,5 +1,11 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+This is a book created from the MycoEd Workbook from March 2026 (Source: https://dx.doi.org/10.17504/protocols.io.rm7vzqd5xvx1/v1) and adapted for 
 
-See @knuth84 for additional discussion of literate programming.
+The Mycological Curriculum for Education and Discovery (Myco-Ed) is a Course-Based Undergraduate Research Experience (CURE) that consists of coordinated hands-on experiments across fungal biology teaching labs with the goals of
+
+* Training students and professors in laboratory techniques and data analyses
+* Compiling original data for improving fungal genomic resources
+* Empowering students through isolation and genome sequencing of new fungal species
+
+ The content is organized into **modules**, each covering a specific topic related to mycology and education. The book is designed to provide comprehensive information and resources for educators, students, and anyone interested in learning about fungi and their role in the environment.

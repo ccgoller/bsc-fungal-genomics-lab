@@ -16,7 +16,13 @@
 **Lab Prep:**
 
 **Sterility:**
-If you don't have a laminar flow hood, you may create a similar environment by setting up 2 torches over your workspace. First, clean your work area with bleach, and/or ethanol. Set the torches facing each other with enough space to work underneath. Light the torches and pour media into plates under the flames.
+If you don't have a laminar flow hood, you may create a similar environment by setting up two torches over your workspace. First, clean your work area with bleach, and/or ethanol. Set the torches facing each other with enough space to work underneath. Light the torches and pour media into plates under the flames. We will use clean benches and laminar flow hoods when available, but this is a good alternative for those without access to these resources.
+
+::: {.callout-warning}
+Note that we will be working with fungi, which are generally not harmful to humans, but can cause allergic reactions in some individuals. Always practice good sterile technique and handle all materials with care. If you have any concerns about allergies or sensitivities, please consult with your instructor before beginning the lab.
+
+Additionally, we may not be able to work in a laminar flow hood, which increases the risk of contamination. Be extra cautious with sterile technique and be prepared for some contamination in your plates. If you have access to a laminar flow hood, please use it for this lab.
+:::
 
 **Water Agar Plates:**
 Students isolate fungal endophytes from leaves on water agar. We use one 100x15mm Petri dish to plate up to 6 leaf discs.
@@ -75,10 +81,10 @@ Record the portion of the canopy where the leaf was collected (L-lower 1/3 of pl
 ## Module 1.3 - Fungal Sampling and Culturing
 
 ### Purpose
-This lab will introduce you to sterile technique, culturing fungi, isolating cultures, and documenting fungal growth.
+This lab will introduce you to sterile/aseptic technique, culturing fungi, isolating cultures, and documenting fungal growth.
 
 ### Introduction
-Every species of plant surveyed to date hosts a multitude of fungal endophytes. These symbiotic fungi exist in all plant tissues, including leaves, bark, roots, and reproductive structures such as flowers and seeds. All lineages of fungi contain endophytic species, however the majority of fungal endophytes described to date are Ascomycetes. Research has shown that fungal endophytes impact both plant species fitness and plant community fitness. Fungal endophytes can confer abiotic and biotic stress tolerance, influence biomass and water consumption, and alter resource allocation. The fungi live either between the plant cells, between the cell wall and the cell membrane, or sometimes even within the cell membrane. This project is part of the MycoEd Fungal Genomics Education Project. The goal of this long-term research project is to produce fungal reference genomes to better understand their biology.
+Every species of plant surveyed to date hosts a multitude of fungal **endophytes**. These symbiotic fungi exist in all plant tissues, including leaves, bark, roots, and reproductive structures such as flowers and seeds. All lineages of fungi contain endophytic species, however the majority of fungal endophytes described to date are Ascomycetes. Research has shown that fungal endophytes impact both plant species fitness and plant community fitness. Fungal endophytes can confer abiotic and biotic stress tolerance, influence biomass and water consumption, and alter resource allocation. The fungi live either between the plant cells, between the cell wall and the cell membrane, or sometimes even within the cell membrane. This project is part of the MycoEd Fungal Genomics Education Project. The goal of this long-term research project is to produce fungal reference genomes to better understand their biology.
 
 ### Learning Goals
 1. Documentation using iNaturalist

@@ -1,4 +1,4 @@
-# Module 0: Getting Started and Data Management
+# Module 0: Getting Started and Data Management [Instructor Instructions]
 
 ## Module 0.1 – Lab Materials and Equipment Overview
 
@@ -8,7 +8,7 @@ This document lists the materials and equipment required for implementing the My
 - 100x15mm Petri Dishes
 - Agar, Bacteriological
 - Autoclave
-- Laminar Flow Hood (not necessary if not available)
+- Laminar Flow Hood (not necessary, if not available)
 - Alcohol Lamp or Bunsen Burner
 - Forceps
 - Scalpel (make sure handle is metal, this will be flame sterilized, plastic will melt)
@@ -26,7 +26,7 @@ This document lists the materials and equipment required for implementing the My
 - 60x15mm Petri Dishes
 - Potato Dextrose Agar
 - Autoclave
-- Laminar Flow Hood (not necessary if not available)
+- Laminar Flow Hood (not necessary, if not available)
 - Gloves
 - Sharpie (fine tip is preferable)
 - 70% ethanol
@@ -95,7 +95,7 @@ There are three kinds of projects:
 
 The umbrella project for MycoEd is the MycoEd Fungal Genomics Education Project. Each course will establish a Traditional Project in iNaturalist. A traditional project allows us to control whose observations are included in the project, which enables better downstream data management. We ask that your class use the Traditional Project for MycoEd for only your MycoEd fungi. If your course includes a fungal collection using iNaturalist, please have a separate iNaturalist project for these fungal observations.
 
-### Make a MycoEd Traditional Project
+### Make a MycoEd Traditional Project [Instructor Instructions]
 1. Log into iNaturalist.
 2. Go to Projects.
 3. This will take you to Your Projects.

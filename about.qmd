@@ -1,26 +1,32 @@
 ---
-title: "Carlos Goller"
+title: "Carlos C. Goller"
 about:
   template: jolla
-  image: cover.png
+  image: GollerCarlos.jpg
   links:
     - icon: github
-      text: Github
-      href: https://github.com
+      text: GitHub
+      href: http:c://github.com/ccgoller
+    - icon: linkedin
+      text: LinkedIn
+      href: http://linkedin.com/in/ccgoller
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+Carlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with **Delftia acidovorans** or code, Carlos enjoys spending time with his family (Claire Gordy also at NC State, Amada, and Aurelio) and playing with his dog Sushine.
 
 ## Education
+North Carolina State University, Raleigh, NC | Advisor: Dr. Sue Carson  |  Topic: Biotechnology Education and Curriculum Development
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+Duke University Medical Center, Durham, NC | Advisor: Patrick C. Seed  |  Topic: Bacterial Pathogenesis and Anti-infective Screening
+The Hartwell Foundation Postdoctoral Fellowship | September 2008 - July 2012
 
-Macalester College | St. Paul, MN
-B.A in Economics | Sept 2007 - June 2011
+Emory University, Atlanta, GA | Advisor: Tony Romeo  |  Topic: Bacterial Biofilm Formation and Regulation
+Ph.D. in Microbiology and Molecular Genetics | August 2002 - September 2008
+
+Worcester Polytechnic Institute | Worcester, MA
+B.S in Biology and Biotechnology | August 1998 - May 2002
 
 ## Experience
-
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+Teaching Professor | North Carolina State University Department of Biological Sciences | 2024 - Present
+Associate Teaching Professor | North Carolina State University Department of Biological Sciences | 2019 - 2024
+Assistant Teaching Professor | North Carolina State University Department of Biological Sciences | 2015 - 2019
