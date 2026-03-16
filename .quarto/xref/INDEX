@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "9a7f9132"
+  },
+  "intro.qmd": {
+    "intro.html": "b65a6352"
+  },
+  "module0.qmd": {
+    "module0.html": "15b30b54"
+  },
+  "module1.qmd": {
+    "module1.html": "5c2c34e9"
+  },
+  "module2.qmd": {
+    "module2.html": "13b93e6d"
+  },
+  "module3.qmd": {
+    "module3.html": "3c4bdc50"
+  },
+  "module4.qmd": {
+    "module4.html": "3ad33ac5"
+  },
+  "module5.qmd": {
+    "module5.html": "006ac98f"
+  },
+  "module6.qmd": {
+    "module6.html": "2fb50f36"
+  },
+  "module7.qmd": {
+    "module7.html": "18c87234"
+  },
+  "summary.qmd": {
+    "summary.html": "faa694b1"
+  },
+  "about.qmd": {
+    "about.html": "dcc5ecfe"
+  },
+  "references.qmd": {
+    "references.html": "a4e7c589"
+  }
+}
