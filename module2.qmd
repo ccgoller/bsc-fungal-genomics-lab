@@ -114,6 +114,7 @@ Read all directions and gather all supplies before beginning.
 4. Average the eight measurements to get the average growth (Table 1).
 
 **Table 1: Daily Growth Average**
+
 | Measurement | Value |
 |-------------|-------|
 | 1 | 3 mm |
@@ -125,6 +126,7 @@ Read all directions and gather all supplies before beginning.
 | 7 | 2.6 mm |
 | 8 | 2.1 mm |
 | Average | 2.5 mm |
+: Table 1. Daily Growth Average
 
 5. Continue to measure average growth in mm 7 days from plating (Figure 4).
 6. Calculate the average growth rate (distance/time).
