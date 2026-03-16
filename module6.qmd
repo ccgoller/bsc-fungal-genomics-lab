@@ -1,0 +1,59 @@
+# Module 6: Sample Submission
+
+## Module 6.1 – Myco-Ed Sample Submission SOP
+
+### Overview
+Use this document to submit fungal samples to Arizona Genomics Institute (AGI) for DNA extraction.
+
+### Definitions
+- JGI = Joint Genomics Institute
+- AGI = Arizona Genome Institute
+
+### Associated Documents
+MycoEd Metadata Form
+
+### Process Steps
+1. Create a JGI Single Sign on Account
+2. Email photos of the live tissue you intend to send AGI before collection to JTALAG@email.arizona.edu and kwbarry@lbl.gov.
+3. Make a copy of the MycoEd Metadata Form
+   a. Click on MycoEd Metadata Form link
+   b. Under file, select Make a Copy
+   c. Rename your new copy [University][Instructor Last Name][MycoEd Metadata][Date]
+4. Fill out your copy of the MycoEd Metadata Form
+   a. Professor is the instructor for the class and their email address
+   b. Name of the University/Institution is your University/Institution
+   c. Date submitted/shipped is the date you ship the samples to AGI
+   d. JGI proposal name & number is DS 509937 (already provided)
+5. Fill out Sample Table
+   a. Enter requested metadata into the table
+   b. Use one row per sample/tube
+   c. Insert additional rows if needed
+   d. Columns with gray field headers, B and D, will be filled out by JGI
+   e. For Column C, Sample Name - please use below convention for naming: [University][Plant][Plant tissue] Metagenome [Sample ID]
+   f. Column G is only needed if you are sending more than 22 samples
+   g. Student is the full name of student that collected the sample and their email address
+   h. Columns with Yellow Header, X-AF, will be filled out by AGI after DNA extraction
+6. Email form to AGI & JGI
+   a. Once all required metadata is provided, download a copy to excel
+   b. Email a copy to Jayson at (jtalag@ag.arizona.edu ) and Kerrie (kwbarry@lbl.gov).
+   c. Include in the subject line of your email "MyCoEd 509937" [Professor's Name][University/Institution] "Sample Submission"
+   d. Include in your email your name, your college/university, the exact name of your samples (column D) that are ready to ship to AGI (and the rows in this sheet).
+   e. Wait for approval/confirmation from AGI & JGI.
+      i. If needed make requested changed and email updated copy
+7. Prepare samples for shipment
+   a. A) Print out (in Landscape orientation) the paper copy of the Myco-Ed Metadata Form and put it with the shipment and also email the completed sheet to: JTALAG@email.arizona.edu, and kwbarry@lbl.gov
+   b. Email FEDEX tracking # when your shipment is picked up.
+   c. Ship samples to
+      Jayson Talag
+      1657 E. Helen St.
+      The University of Arizona
+      Tucson, AZ 85721
+      United States
+      Ph: 520-626-9596
+
+### High Molecular DNA Extraction Protocol
+The AGI uses the following high molecular DNA extraction protocol:
+
+High molecular weight DNA is extracted from (biomass) using the protocol of Doyle and Doyle (1987) with minor modifications. Flash-frozen biomass is ground to a fine powder in a frozen mortar with liquid nitrogen followed by very gentle extraction in 2% CTAB buffer (that includes proteinase K, PVP-40 and beta-mercaptoethanol) for 30min to 1h at 50 °C. After centrifugation, the supernatant is transferred to a new tube, treated with 200ul 50mM PSMF for 10 minutes at room temperature then gently extracted twice with 24:1 Chloroform : Isoamyl alcohol. The upper phase is transferred to a new tube and 1/10th volume 3 M Sodium acetate is added, gently mixed, and DNA precipitated with iso-propanol. DNA precipitate is collected by centrifugation, washed with 70% ethanol, air dried for 5-10 minutes and dissolved thoroughly in elution buffer at room temperature followed by RNAse treatment. DNA purity is measured with Nanodrop, DNA concentration measured with Qubit HS kit (Invitrogen) and DNA size is validated by Femto Pulse System (Agilent).
+
+Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small quantities of fresh leaf tissues. Phytochem Bull. 19:11–15.

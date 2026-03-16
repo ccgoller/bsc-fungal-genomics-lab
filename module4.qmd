@@ -1,0 +1,211 @@
+# Module 4: DNA Sequencing
+
+## Module 4.1 – DNA Sequencing and Species Identification Instructor Resources
+
+### Instructor Laboratory Preparation Instructions
+
+**Materials needed:**
+- 3 x 250 mL Beakers
+- 100 mL graduated cylinder or 100 mL pipettes.
+- Distilled water
+- PCR pure water
+- 1.5 mL microcentrifuge tubes
+- Glassware with screw cap lids
+- Stock primers
+- 1-10 and 20-200 µL micropipettors
+- 1-10 and 20-200 µL micropipette tips
+- Magnetic stir bars
+- Hotplate and magnetic stir plate
+- Tris (need 100 mL of 1M Tris stock solution)
+- KCl (need 18.6 g)
+- EDTA (need 3.7 g)
+- Gloves
+- Sharpie
+
+**DNA Extraction Buffer (ES)**
+
+**1M Tris Stock Solution (1 mole (M) of Tris = 121.14 grams)**
+1. Add 121.14 grams of Tris to 1000 mL of water (adjust quantity to lab needs)
+2. Add a magnetic stir bar to the beaker and put the beaker on a hot plate/stir plate and set the heat and stirring to medium-low to facilitate the dissolving of the Tris.
+
+**Prepare Extraction Buffer (ES)**
+1. Add 10 mL of Tris stock solution to a 250 mL beaker.
+2. Weigh and add 1.86 g KCL to the beaker.
+3. Weigh and add 0.37 g EDTA.
+4. Top up with 80 mL of distilled water.
+5. Place on a hot/stir plate with a magnetic stir bar over medium-low heat and speed. Wait until dissolved.
+6. Top up to 100mL total with distilled water and stir briefly.
+7. Dispense 1000 µL into 1.5 mL microcentrifuge tubes and label the tubes "ES" for Extraction Solution.
+8. Place tubes in a rack labeled "Mycology DNA Extraction Reagents" and store in the Freezer.
+
+**Dilution Solution (DS) (3% BSA) Prep**
+1. Add 3 g BSA (Bovine Serum Albumin) to 250 mL beaker.
+2. Add 100 mL of distilled water.
+3. Shake/stir to dissolve the BSA into solution. DO NOT HEAT!
+4. Dispense 1000 µL into 1.5 mL microcentrifuge tubes and label the tubes "DS".
+5. Place tubes in a rack labeled "Mycology DNA Extraction Reagents" and store them in the Freezer.
+
+**Diluting and prepping PCR primers**
+1. To dilute the vial to a stock concentration of 100 picomols/microliter first read the number of µmols present in the tube.
+   a. Using this number, divide by 10, and add that many µL of PCR pure water to the tubes. This will give you a concentration of 100 pmol/µL
+2. To make PCR ready primers we need to dilute the concentration to 10 pmol/µL.
+   a. Add 180 µL PCR pure water to a 1.5 mL microcentrifuge tube.
+   b. Label the tube according to the primer being added.
+   c. Add 20 µL of the 100 pmol/µL concentration primer.
+
+## Module 4.2 – DNA Sequencing and Species Identification
+
+### Purpose
+The purpose of this module is to molecularly identify fungal isolates using the Internal Transcribed Spacer (ITS) rDNA region, also known as the fungal barcode. You will extract genomic DNA (gDNA) from your isolates, amplify the ITS rDNA using polymerase chain reaction (PCR), clean PCR product, Sanger sequence PCR product, and use DNA sequence to obtain a name for your isolate.
+
+### Learning Goals
+1. Practice extracting fungal DNA
+2. Successfully PCR amplify fungal ITS
+3. Learn to BLAST ITS sequence to identify fungal isolates
+
+### Part I: DNA Extraction
+
+#### Introduction
+Identification of fungal cultures requires knowledge and techniques beyond the scope of this course. Luckily, we can use DNA sequencing of the fungal barcode region (ITS rDNA region) to obtain an identification for our isolates. To do this, you must (1) extract gDNA from a pure culture of your fungal isolate; (2) specifically amplify (make millions of copies) a portion of the ITS rDNA region using polymerase chain reaction (PCR); (3) sequence the PCR product using Sanger sequencing; and (4) submit your sequences for comparison against an online gene database (NCBI's GenBank).
+
+In this part of the module, you will extract DNA from your fungal isolates. There are many ways to isolate DNA from fungi. Here we will use a very simple kit that uses an alkaline (pH 9.5-10) extraction solution at high heat to disrupt cells and release gDNA.
+
+#### Materials:
+- Fungal isolates
+- 0.2 mL PCR tubes
+- P20 micropipette with tips
+- DNA extraction solution (ES)
+- DNA dilution solution (DS)
+- Ethanol jar
+- Loop, pick, and forceps
+
+#### Procedures:
+1. Using the micropipette, aliquot 20 µL of ES into 0.2 mL snap-cap PCR tubes. We will run DNA extraction in duplicates, so fill two PCR tubes per culture.
+   NOTE: Label your tubes before adding ES. Label on both the cap and side of the tubes, so you can identify the samples as yours and can differentiate to which culture they belong.
+2. Place the tissue sample into the ES. Submerge and smash the sample against the tube wall if possible.
+   NOTE: be careful not to add any agar to the ES as this will impact the pH of the solution and the extraction of gDNA.
+3. Close the snap-caps and incubate at 65 °C for 10 minutes followed by 95 °C for 10 minutes.
+4. Using the micropipette, aliquot an equal volume of DS (20 µL) to your extracts. Ensure that you can still read the labels and store in the freezer until next week. We will use these extractions to amplify the fungal ITS rDNA region using PCR.
+
+### Part II: Polymerase Chain Reaction (PCR)
+
+#### Introduction to PCR
+The polymerase chain reaction (PCR), developed in the mid-1980s, amplifies a specific DNA region by creating millions or billions of copies by 'in vitro DNA replication'. It uses a thermostable form of bacterial DNA polymerase, the enzyme that copies DNA, isolated from Thermus aquaticum, a thermophilic bacterium isolated from a Yellowstone hot spring. This enzyme, 'Taq polymerase', is active at 72 °C and can withstand brief heating to 95 °C. Thus, the PCR reaction is an example of how environmental microbes have benefited biotechnology and revolutionized biology.
+
+The PCR reaction consists of mixing your template DNA with two primers: short sequences of DNA that are complementary to the ends of the region you want to amplify. The forward primer binds to one strand at the beginning of the region, and the reverse primer binds to the complementary strand at the end of the region. Primers are designed using computer databases of gene sequences, and synthesized chemically. In addition to the primers, Taq polymerase (or a synthetic polymerase enzyme), and your DNA, the PCR reaction also needs a buffer containing MgCl2 and dNTPs (the four bases of DNA). The reaction is run on a machine called a thermal cycler, which automatically heats the reaction first to 95 °C to melt the double-stranded DNA (break H-bonds between strands), then to about 53 °C to allow the primers to anneal to the template DNA, and finally to 72 °C to allow the polymerase to add dNTPs and extend the product. Typically, scientists run 25-35 cycles of this reaction, producing 225 - 235 copies of the target region.
+
+Figure 1: rDNA region containing the variable regions ITS-1 and ITS-2. Our forward primer (ITS-1F) will target a portion of the SSU and our reverse primer (ITS4) will target a portion of the LSU. Thereby, amplifying both variable regions and the 5.8S subunit.
+
+#### Materials:
+- DNA extractions with DS
+- Control DNA sample
+- 0.2 mL PCR tubes
+- P10 micropipette with tips
+- P20 micropipette with tips
+- P200 micropipette with tips
+- P1000 micropipette with tips
+- Master mix containing buffer (MgCl2, dNTPs, primers, polymerase enzyme)
+- PCR tube centrifuge
+- Thermal cycler
+
+#### Procedures:
+We will run 20 µL PCR reactions
+1. Add 18 µL of PCR master mix (contains PCR buffer, polymerase enzyme, dNTPs, and primers) to one PCR tube per sample. You can use the same pipette tip to aliquot master mix to PCR tubes.
+   NOTE: Cap all PCR tubes when not in use to avoid cross-contamination.
+2. Dilute DNA 1:10 (2 µl of DNA + 18 µL of DS)
+3. Transfer 2 µL of your 1:10 diluted DNA to one PCR tube containing master mix.
+   NOTE: Only one sample per tube and make sure to use a fresh tip for each sample to avoid cross-contamination.
+4. Spin down your tubes before placing them in the thermal cycler. Run the reaction and observe the temperature cycles. After the reactions are finished, we will store your PCR products at -20 °C.
+
+#### PCR Troubleshooting after Gel Electrophoresis
+1. No amplification on any samples: check primers, polymerase, and other reagents.
+2. Positive control OK, but samples show no amplification: Try dilutions of samples to check for inhibitors. Try a control with a primer set for common organisms to check that you can PCR something. Check the DNA amount.
+3. Weak or multiple bands, smear: Mispriming from the incorrect program. Check primer concentration: an imbalance of primers can lead to multiple bands.
+
+### Part III: Gel Electrophoresis Introduction
+Gel electrophoresis is a technique used to separate and analyze DNA based on fragment sizes and to verify the success of PCR. Gel electrophoresis separates DNA molecules based on size by applying an electrical current to either side of the gel. Since DNA is negatively charged, we load our DNA on the positive side of the gel to allow it to run toward the positive side of the gel when power is applied. The agarose gel allows the separation of DNA fragments based on size as the polysaccharide matrix acts as a sieve allowing small fragments to migrate faster and larger fragments slower.
+
+Today, we will use gel electrophoresis to verify the success of our PCR reaction. We are looking for PCR product bands between
+
+#### Prep 1% agarose gels for gel electrophoresis
+To give enough time for the gel to cool and solidify, this task should be done in the first hour of the lab.
+
+#### Materials needed:
+- Agarose
+- 1X TAE (or TE, TBE, or SB) buffer to make gels and running buffer
+  Note: Use the same buffer for making and running the gel
+- SYBR Safe to visualize DNA
+- 250 mL Erlenmeyer Flask
+- P20 micropipette with tips
+- PCR products
+- 100 bp Ladder
+- Digital Balance
+- Weigh Boats
+- Gel rigs
+- Gel comb
+- Power source
+
+#### Gel Preparation Protocol (Prep gel at least 20 minutes prior to use)
+1. Measure 100 mL of 1x TE buffer in an Erlenmeyer flask.
+2. Add 1 gram of agarose to the buffer.
+3. Microwave for 30-second intervals.
+4. Remove and swirl after each interval. If you still see un-melted agarose, continue in 30-second intervals until completely melted. If the agarose starts to boil, stop the microwave immediately to prevent it from boiling over.
+5. Once all the agarose is melted, let sit on the counter until it cools enough to handle. Don't let it cool too long as it will solidify.
+6. Set up the agarose mold and add a comb.
+7. Once the agarose has cooled to the touch. Pour into the mold. Make sure the agarose is approximately 1/3 to 1/2 way up the combs.
+8. If bubbles are present, use a micropipette tip to draw them to the sides of the gel.
+9. Allow approximately 20 minutes for the gel to solidify and become somewhat translucent.
+10. Gently remove the comb.
+11. Remove gel from casting mold and place in gel rig. The gel rig is oriented to "run to red." Place the wells created from the comb towards the black electrode, opposite the red electrode.
+12. Gels can be wrapped in saran wrap and stored for approximately 1 week.
+
+#### Gel Loading:
+1. Fill the gel rig with 1X TAE (or equivalent) buffer until it covers the surface of the gel.
+2. Make a map of your samples in your gel.
+3. Load Gel
+   a. PCR product without loading dye: Using a micropipettor add drops (less than 1 μL) of loading dye to the plastic side of parafilm. Add 5 μL PCR product to loading dye. Swirl with pipette tip. Draw up the product and proceed to step 4.
+   b. PCR product with loading dye: Draw up 5 μL of PCR product using micropipette.
+4. Dip pipette tip into the submerged well very carefully, without piercing through the gel. Depress the pipette slowly. Too much pressure or speed will force the sample out of the well. Without releasing the plunger, draw out the pipette. If you release the plunger, you will draw your sample back into the pipette.
+5. Be sure to reserve one well per row for a standardized DNA ladder.
+6. Run at 300 volts for about 15 minutes
+   a. Keep an eye on the migration of your PCR product across the get to ensure it doesn't run off the other end of the gel.
+7. Visualize with UV light.
+
+### Part IV: PCR Cleanup
+In order to sequence PCR products, the primers and other contaminants must be removed.
+1. Remove ExoSAP-IT™ reagent from –20 °C freezer and keep on ice throughout this procedure.
+2. Mix 5 µL of a post-PCR reaction product with 2 µL of ExoSAPIT™ reagent for a combined 7 µL reaction volume. When treating PCR product volumes greater than 5 µL, simply increase the amount of ExoSAP-IT™ reagent proportionally.
+3. Incubate at 37 °C for 15 minutes to degrade remaining primers and nucleotides.
+4. Incubate at 80 °C for 15 minutes to inactivate ExoSAP-IT™ reagent.
+5. The PCR product is now ready for use in DNA sequencing. Treated PCR products may be stored at –20°C until required
+
+### Part V: Sanger Sequencing
+Your cleaned PCR product will be sent to an external facility for Sanger sequencing.
+
+### Part VI: Identifying Species using DNA Barcode
+
+#### Identify your sequence data using BLAST
+To identify the sequence you've produced and determine if it represents the specimen you've sequenced and not some other contaminant, you can compare the sequence to a database of reference sequences. This is from the National Center for Biotechnology Information's (NCBI) Genbank database.
+
+1. Go to NCBI: https://www.ncbi.nlm.nih.gov/.
+2. Click on "BLAST" in the right-hand column under "Popular Resources"
+   - BLAST = Basic Local Alignment Search Tool
+3. Click on the Nucleotide BLAST image.
+   - There are numerous BLAST options depending on the data you are working with. The two basics are nucleotides and amino acid (=Protein) sequence BLASTS. The blastx and blastn options allow you to convert these sequences into the complementary format.
+4. Paste your sequence data into the big space under "Enter Query Sequence".
+   - Open your FASTA file and select your sequences. This is the DNA sequence from the beginning of the ">" symbol, all the way to the end (e.g., the beginning of the next ">" symbol).
+5. Under Choose Search Set you can keep it under "Standard databases (nr etc.)".
+   - You can come back and re-perform the BLAST using the "rRNA/ITS databases". After selecting this, choose "Internal transcribed spacer region (ITS) from Fungi type and reference material". This will be a much narrower database and set of comparisons, but the confidence in the results providing a correct ID will be *MUCH* higher.
+6. Select the "BLAST" button at the end.
+   - Genbank will then begin to query your sequence against sequences in the database. The top hit that comes back will be the sequence that is most like your sequence based on several stats.
+   - Percent Identity = What percent of your sequence (query sequence) is identical to the matched sequence.
+   - Query Cover = How much of the query sequence covers the matched sequence.
+   - E value = The probability that this match occurred by chance in the provided database.
+7. Review the results.
+   - What is the "top hit"?
+   - How much support is provided for this hit given the current database used?
+   - What is the taxonomic ID of this result? What kind of fungi are these?
+   - You may google the names and search under Wikipedia to get a better understanding of these organisms and what is known.
+
+### Part VII: Data Management - Spreadsheets and iNaturalist
+[Content for this part would continue from the protocols, but it's cut off in the text]

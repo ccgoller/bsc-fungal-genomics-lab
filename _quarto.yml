@@ -1,0 +1,58 @@
+project:
+  type: book
+
+book:
+  title: "BSC 495: The Hidden World's Code"
+  subtitle: "A Hands-On Fungal Genomics Lab"
+  author: "Carlos C. Goller"
+  date: "3/14/2026"
+  cover-image: hwc.jpg
+  image: hwc.jpg
+  page-navigation: true
+  description: "This lab-based course is a three-week high-impact experience based on The Mycological Curriculum for Education and Discovery (Myco-Ed), a Course-Based Undergraduate Research Experience (CURE) that features team-based, hands-on experiments in fungal biology and genomics. You will learn new laboratory techniques and data analysis by starting with sample collection, fungal isolation, and the characterization of the resulting data to improve fungal genomic resources. Genomic DNA will be extracted from samples for genome sequencing, assembly, and annotation. By isolating and sequencing new fungal species, your team will help produce high-quality fungal reference genomes. This course will prepare you with workforce training in fungal biology and genomics and empower you to be a contributor to fungal genomics! Importantly, you will practice lab and bioinformatics skills that are broadly applicable!"
+
+  favicon: cover.png
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - module0.qmd
+    - module1.qmd
+    - module2.qmd
+    - module3.qmd
+    - module4.qmd
+    - module5.qmd
+    - module6.qmd
+    - module7.qmd
+    - summary.qmd
+    - about.qmd
+    - references.qmd
+  page-footer: 
+    left: "CC BY, Carlos C. Goller" 
+    right: 
+      - icon: github
+        href: https://github.com/
+  downloads: [pdf, epub]
+ 
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+
+sidebar:
+    background: light
+    logo: hwc.jpg
+    logo-alt: "The Hidden World's Code"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+execute:
+  freeze: auto
