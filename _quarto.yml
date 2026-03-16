@@ -52,8 +52,6 @@ format:
     theme:
       - cosmo
       - brand
-    light: flatly
-    dark: darkly
   pdf:
     documentclass: scrreprt
 
