@@ -1,0 +1,10 @@
+# Quarto build artifacts
+_book/
+.quarto/
+
+# Python virtual environment
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
