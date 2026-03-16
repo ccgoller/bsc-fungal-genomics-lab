@@ -1,7 +1,7 @@
 ---
 title: "Carlos C. Goller"
 about:
-  template: broadside
+  template: trestles
   image: GollerCarlos.jpg
   links:
     - icon: github
