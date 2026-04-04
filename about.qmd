@@ -6,10 +6,10 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: http:c://github.com/ccgoller
+      href: https://github.com/ccgoller
     - icon: linkedin
       text: LinkedIn
-      href: http://linkedin.com/in/ccgoller
+      href: https://linkedin.com/in/ccgoller
 ---
 
 Carlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with **Delftia acidovorans** or code, Carlos enjoys spending time with his family (Claire Gordy also at NC State, Amada, and Aurelio) and playing with his dog Sushine.
