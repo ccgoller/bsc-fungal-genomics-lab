@@ -87,7 +87,7 @@ In this lab, we will explore the effects of temperature on the growth and surviv
 **Procedures:**
 - Label your plates with identifying information and growth temperatures (2 per temp.)
 - On the bottom of each plate, draw four lines that intersect in the center of the plate (Figure 6.1)
-- Cut out three 0.5 cm chunks from the edge of your pure and place one in the center of each of the temperature plates plates
+- Cut out three 0.5 cm chunks from the edge of your pure culture and place one in the center of each of the temperature plates
 - Close and parafilm your plates
 - Carefully, flip the plates over and trace the cube using a fine-tip Sharpie
 - Bring your plates to the front of the class and place them (unflipped) in the correct box for incubation
