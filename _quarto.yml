@@ -31,13 +31,13 @@ book:
     left: "CC BY, Carlos C. Goller" 
     right: 
       - icon: github
-        href: https://github.com/
+        href: https://github.com/BSC495-HWC
   downloads: [pdf, epub]
  
   navbar:
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/BSC495-HWC
         aria-label: GitHub
 
 sidebar:

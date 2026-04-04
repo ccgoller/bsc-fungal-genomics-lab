@@ -1,3 +1,3 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+In summary, this book covers the complete Myco-Ed curriculum for BSC 495: The Hidden World's Code. Students will gain hands-on experience in fungal biology and genomics, from sample collection and fungal isolation through DNA sequencing, genome assembly, and annotation. By the end of the course, students will have contributed to high-quality fungal reference genomes and developed broadly applicable skills in lab techniques and bioinformatics. More information and course resources are available at the [BSC495-HWC GitHub organization](https://github.com/BSC495-HWC).
