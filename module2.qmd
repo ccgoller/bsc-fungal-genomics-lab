@@ -79,7 +79,6 @@ This project is part of the Myco-Ed Fungal Genomics Education Project. The goal 
 - Parafilm
 - Fine Tip Sharpie
 - Flame Source for Sterilization (alcohol lamp or Bunsen burner)
-- Parafilm
 - Scalpel
 - Ruler
 - Forceps

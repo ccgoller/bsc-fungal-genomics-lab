@@ -30,7 +30,7 @@
 
 **Prepare Extraction Buffer (ES)**
 1. Add 10 mL of Tris stock solution to a 250 mL beaker.
-2. Weigh and add 1.86 g KCL to the beaker.
+2. Weigh and add 1.86 g KCl to the beaker.
 3. Weigh and add 0.37 g EDTA.
 4. Top up with 80 mL of distilled water.
 5. Place on a hot/stir plate with a magnetic stir bar over medium-low heat and speed. Wait until dissolved.
@@ -168,7 +168,7 @@ To give enough time for the gel to cool and solidify, this task should be done i
 4. Dip pipette tip into the submerged well very carefully, without piercing through the gel. Depress the pipette slowly. Too much pressure or speed will force the sample out of the well. Without releasing the plunger, draw out the pipette. If you release the plunger, you will draw your sample back into the pipette.
 5. Be sure to reserve one well per row for a standardized DNA ladder.
 6. Run at 300 volts for about 15 minutes
-   a. Keep an eye on the migration of your PCR product across the get to ensure it doesn't run off the other end of the gel.
+   a. Keep an eye on the migration of your PCR product across the gel to ensure it doesn't run off the other end of the gel.
 7. Visualize with UV light.
 
 ### Part IV: PCR Cleanup
