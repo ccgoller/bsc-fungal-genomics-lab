@@ -44,8 +44,7 @@
   }
 
   /* ─── Floating reader-controls container ──────────────────────────────── */
-  // Buttons are normally shown inside the sidebar. When a reader mode hides
-  // the sidebar, the buttons are moved here so they remain accessible.
+  // Shown when deep reader mode hides the navbar so the toggle stays reachable.
   function getFloatingContainer() {
     var c = document.getElementById('reader-controls-floating');
     if (!c) {
@@ -56,77 +55,39 @@
     return c;
   }
 
-  /* ─── Reader Mode ──────────────────────────────────────────────────────── */
-  var READER_MODE_KEY = 'bsc495-reader-mode';
-
-  function setupReaderMode() {
-    var sidebar = document.getElementById('quarto-sidebar');
-    if (!sidebar) return;
-
-    var btn = document.createElement('button');
-    btn.id = 'reader-mode-toggle';
-    btn.setAttribute('aria-pressed', 'false');
-    btn.title = 'Toggle Reader Mode';
-    btn.innerHTML =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">' +
-        '<path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>' +
-      '</svg>' +
-      '<span class="reader-mode-label">Reader Mode</span>';
-
-    function placeReaderBtn(isOn) {
-      if (isOn) {
-        // Sidebar is hidden in reader mode — move button to the floating overlay
-        getFloatingContainer().appendChild(btn);
-      } else {
-        // Restore button to the top of the sidebar
-        sidebar.insertAdjacentElement('afterbegin', btn);
-      }
-    }
-
-    btn.addEventListener('click', function () {
-      var isOn = document.body.classList.toggle('reader-mode');
-      btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
-      localStorage.setItem(READER_MODE_KEY, isOn ? 'on' : 'off');
-      placeReaderBtn(isOn);
-    });
-
-    var initiallyOn = localStorage.getItem(READER_MODE_KEY) === 'on';
-    if (initiallyOn) {
-      document.body.classList.add('reader-mode');
-      btn.setAttribute('aria-pressed', 'true');
-    }
-    placeReaderBtn(initiallyOn);
-  }
-
   /* ─── Deep Reader Mode ─────────────────────────────────────────────────── */
   var DEEP_READER_MODE_KEY = 'bsc495-deep-reader-mode';
 
   function setupDeepReaderMode() {
-    var sidebar = document.getElementById('quarto-sidebar');
-    if (!sidebar) return;
-
     var btn = document.createElement('button');
     btn.id = 'deep-reader-mode-toggle';
     btn.setAttribute('aria-pressed', 'false');
     btn.title = 'Toggle Deep Reader Mode';
     btn.innerHTML =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">' +
+      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">' +
         '<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>' +
         '<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>' +
-      '</svg>' +
-      '<span class="deep-reader-mode-label">Deep Reader Mode</span>';
+      '</svg>';
+
+    var navItem = document.createElement('li');
+    navItem.className = 'nav-item compact';
+    navItem.appendChild(btn);
+
+    function getNavbarList() {
+      return document.querySelector('.navbar-nav.ms-auto') ||
+             document.querySelector('ul.navbar-nav');
+    }
 
     function placeDeepBtn(isOn) {
       if (isOn) {
-        // Sidebar is hidden in deep reader mode — move button to the floating overlay
+        // Navbar is hidden in deep reader mode — move button to the floating overlay
         getFloatingContainer().appendChild(btn);
       } else {
-        // Restore button after the reader-mode-toggle if present, otherwise at the top
-        var readerBtn = document.getElementById('reader-mode-toggle');
-        if (readerBtn && readerBtn.parentNode === sidebar) {
-          readerBtn.insertAdjacentElement('afterend', btn);
-        } else {
-          sidebar.insertAdjacentElement('afterbegin', btn);
+        // Place the button as the last item in the right-side navbar list
+        var navList = getNavbarList();
+        if (navList) {
+          navItem.appendChild(btn);
+          navList.appendChild(navItem);
         }
       }
     }
@@ -150,12 +111,10 @@
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () {
       insertBanner();
-      setupReaderMode();
       setupDeepReaderMode();
     });
   } else {
     insertBanner();
-    setupReaderMode();
     setupDeepReaderMode();
   }
 }());

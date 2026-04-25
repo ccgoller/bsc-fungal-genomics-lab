@@ -145,102 +145,51 @@ thead {
   }
 }
 
-// ── Reader Mode Toggle Button ────────────────────────────────────────────────
-#reader-mode-toggle {
+// ── Deep Reader Mode Toggle Button (Navbar icon) ─────────────────────────────
+#deep-reader-mode-toggle {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-  padding: 0.4rem 0.75rem;
-  margin-bottom: 0.85rem;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
   background: transparent;
-  border: 1px solid rgba(107, 127, 207, 0.4);
-  border-radius: 6px;
-  color: #8fa3e0;
-  font-size: 0.82rem;
-  font-weight: 500;
+  border: none;
+  color: #e8ecf7;
   cursor: pointer;
-  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+  border-radius: 4px;
 
   &:hover {
-    background-color: rgba(107, 127, 207, 0.12);
+    opacity: 1;
   }
 
   &[aria-pressed="true"] {
-    background-color: #6b7fcf;
-    color: #ffffff;
-    border-color: #6b7fcf;
-  }
-
-  .reader-mode-label {
-    white-space: nowrap;
+    opacity: 1;
+    color: #2dcfa0;
   }
 }
 
-// ── Floating reader-controls container (shown when sidebar is hidden) ────────
+// ── Floating reader-controls container (shown when navbar is hidden) ──────────
 #reader-controls-floating {
   position: fixed;
   top: 1rem;
   left: 1rem;
   z-index: 1100;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
 
-  #reader-mode-toggle,
   #deep-reader-mode-toggle {
-    width: auto;
+    background: #12121f;
+    border: 1px solid rgba(45, 207, 160, 0.5);
+    border-radius: 6px;
+    color: #2dcfa0;
+    padding: 0.4rem 0.5rem;
     box-shadow: 0 2px 8px rgba(200, 206, 232, 0.2);
-  }
-}
+    opacity: 1;
 
-// ── Reader Mode Active ───────────────────────────────────────────────────────
-body.reader-mode {
-  #quarto-sidebar,
-  #quarto-margin-sidebar {
-    display: none !important;
-  }
-
-  .quarto-container.page-columns {
-    grid-template-columns: 1fr !important;
-  }
-
-  #quarto-document-content {
-    max-width: 780px;
-    margin-inline: auto;
-    padding-inline: 2rem;
-  }
-}
-
-// ── Deep Reader Mode Toggle Button ──────────────────────────────────────────
-#deep-reader-mode-toggle {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-  padding: 0.4rem 0.75rem;
-  margin-bottom: 0.85rem;
-  background: transparent;
-  border: 1px solid rgba(45, 207, 160, 0.4);
-  border-radius: 6px;
-  color: #2dcfa0;
-  font-size: 0.82rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
-
-  &:hover {
-    background-color: rgba(45, 207, 160, 0.1);
-  }
-
-  &[aria-pressed="true"] {
-    background-color: #2dcfa0;
-    color: #0a1510;
-    border-color: #2dcfa0;
-  }
-
-  .deep-reader-mode-label {
-    white-space: nowrap;
+    &[aria-pressed="true"] {
+      background-color: #2dcfa0;
+      color: #0a1510;
+      border-color: #2dcfa0;
+    }
   }
 }
 
