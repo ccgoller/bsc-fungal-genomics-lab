@@ -89,3 +89,103 @@ thead {
   background-color: #1e2d6e;
   color: #e8ecf7;
 }
+
+// ── Announcement Banner ──────────────────────────────────────────────────────
+#course-announcement-banner {
+  background-color: #1e2040;
+  border-bottom: 2px solid #6b7fcf;
+  padding: 0.55rem 1.5rem;
+
+  .announcement-inner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .announcement-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .announcement-text {
+    flex: 1;
+    margin: 0;
+    font-size: 0.875rem;
+    color: #dde2f4;
+    line-height: 1.4;
+
+    a {
+      color: #8fa3e0;
+      text-decoration: underline;
+    }
+  }
+
+  .announcement-close {
+    flex-shrink: 0;
+    background: none;
+    border: 1px solid transparent;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #8fa3e0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.15s;
+
+    &:hover {
+      background-color: rgba(107, 127, 207, 0.18);
+    }
+  }
+}
+
+// ── Reader Mode Toggle Button ────────────────────────────────────────────────
+#reader-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  margin-bottom: 0.85rem;
+  background: transparent;
+  border: 1px solid rgba(107, 127, 207, 0.4);
+  border-radius: 6px;
+  color: #8fa3e0;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+
+  &:hover {
+    background-color: rgba(107, 127, 207, 0.12);
+  }
+
+  &[aria-pressed="true"] {
+    background-color: #6b7fcf;
+    color: #ffffff;
+    border-color: #6b7fcf;
+  }
+
+  .reader-mode-label {
+    white-space: nowrap;
+  }
+}
+
+// ── Reader Mode Active ───────────────────────────────────────────────────────
+body.reader-mode {
+  #quarto-sidebar,
+  #quarto-margin-sidebar {
+    display: none !important;
+  }
+
+  .quarto-container.page-columns {
+    grid-template-columns: 1fr !important;
+  }
+
+  #quarto-document-content {
+    max-width: 780px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
+}
