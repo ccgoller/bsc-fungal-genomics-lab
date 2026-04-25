@@ -50,8 +50,8 @@ bibliography: references.bib
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, ncstate-light.scss]
+      dark: [darkly, ncstate-dark.scss]
   pdf:
     documentclass: scrreprt
 
