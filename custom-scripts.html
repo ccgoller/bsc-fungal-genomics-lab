@@ -43,6 +43,19 @@
     header.insertAdjacentElement('afterend', banner);
   }
 
+  /* ─── Floating reader-controls container ──────────────────────────────── */
+  // Buttons are normally shown inside the sidebar. When a reader mode hides
+  // the sidebar, the buttons are moved here so they remain accessible.
+  function getFloatingContainer() {
+    var c = document.getElementById('reader-controls-floating');
+    if (!c) {
+      c = document.createElement('div');
+      c.id = 'reader-controls-floating';
+      document.body.appendChild(c);
+    }
+    return c;
+  }
+
   /* ─── Reader Mode ──────────────────────────────────────────────────────── */
   var READER_MODE_KEY = 'bsc495-reader-mode';
 
@@ -60,18 +73,29 @@
       '</svg>' +
       '<span class="reader-mode-label">Reader Mode</span>';
 
+    function placeReaderBtn(isOn) {
+      if (isOn) {
+        // Sidebar is hidden in reader mode — move button to the floating overlay
+        getFloatingContainer().appendChild(btn);
+      } else {
+        // Restore button to the top of the sidebar
+        sidebar.insertAdjacentElement('afterbegin', btn);
+      }
+    }
+
     btn.addEventListener('click', function () {
       var isOn = document.body.classList.toggle('reader-mode');
       btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
       localStorage.setItem(READER_MODE_KEY, isOn ? 'on' : 'off');
+      placeReaderBtn(isOn);
     });
 
-    if (localStorage.getItem(READER_MODE_KEY) === 'on') {
+    var initiallyOn = localStorage.getItem(READER_MODE_KEY) === 'on';
+    if (initiallyOn) {
       document.body.classList.add('reader-mode');
       btn.setAttribute('aria-pressed', 'true');
     }
-
-    sidebar.insertAdjacentElement('afterbegin', btn);
+    placeReaderBtn(initiallyOn);
   }
 
   /* ─── Deep Reader Mode ─────────────────────────────────────────────────── */
@@ -92,24 +116,34 @@
       '</svg>' +
       '<span class="deep-reader-mode-label">Deep Reader Mode</span>';
 
+    function placeDeepBtn(isOn) {
+      if (isOn) {
+        // Sidebar is hidden in deep reader mode — move button to the floating overlay
+        getFloatingContainer().appendChild(btn);
+      } else {
+        // Restore button after the reader-mode-toggle if present, otherwise at the top
+        var readerBtn = document.getElementById('reader-mode-toggle');
+        if (readerBtn && readerBtn.parentNode === sidebar) {
+          readerBtn.insertAdjacentElement('afterend', btn);
+        } else {
+          sidebar.insertAdjacentElement('afterbegin', btn);
+        }
+      }
+    }
+
     btn.addEventListener('click', function () {
       var isOn = document.body.classList.toggle('deep-reader-mode');
       btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
       localStorage.setItem(DEEP_READER_MODE_KEY, isOn ? 'on' : 'off');
+      placeDeepBtn(isOn);
     });
 
-    if (localStorage.getItem(DEEP_READER_MODE_KEY) === 'on') {
+    var initiallyOn = localStorage.getItem(DEEP_READER_MODE_KEY) === 'on';
+    if (initiallyOn) {
       document.body.classList.add('deep-reader-mode');
       btn.setAttribute('aria-pressed', 'true');
     }
-
-    // Insert after the reader-mode-toggle if it exists, otherwise at the top
-    var readerBtn = document.getElementById('reader-mode-toggle');
-    if (readerBtn) {
-      readerBtn.insertAdjacentElement('afterend', btn);
-    } else {
-      sidebar.insertAdjacentElement('afterbegin', btn);
-    }
+    placeDeepBtn(initiallyOn);
   }
 
   /* ─── Init ─────────────────────────────────────────────────────────────── */
