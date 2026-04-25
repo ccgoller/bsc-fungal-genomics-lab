@@ -52,6 +52,7 @@ format:
     theme:
       light: [cosmo, ncstate-light.scss]
       dark: [darkly, ncstate-dark.scss]
+    include-after-body: custom-scripts.html
   pdf:
     documentclass: scrreprt
 
