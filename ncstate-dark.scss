@@ -1,0 +1,91 @@
+/*-- NC State Bio-Indigo & Genomic Green — Dark Theme --*/
+/*
+ * NC State brand colors
+ *   Bio-Indigo:    #4156A1
+ *   Genomic Green: #00A77E
+ */
+
+/*-- scss:defaults --*/
+
+// Brighten both brand colors slightly so they remain legible on dark backgrounds
+$primary:        #6b7fcf;   // lightened Bio-Indigo
+$secondary:      #2dcfa0;   // lightened Genomic Green
+$link-color:     #6b7fcf;
+
+$navbar-bg:      #1a1a2e;   // deep indigo-navy
+$navbar-fg:      #e8ecf7;
+
+$sidebar-bg:     #12121f;
+$sidebar-fg:     #c8cee8;
+
+$body-bg:        #1a1a2e;
+$body-color:     #dde2f4;
+
+$headings-color: #8fa3e0;   // soft Bio-Indigo for headings
+
+$code-bg:        #0d1f1a;   // very dark green tint
+$code-color:     #2dcfa0;   // Genomic Green for code text
+
+/*-- scss:rules --*/
+
+// Navbar brand / title
+.navbar-brand, .navbar-title {
+  color: #e8ecf7 !important;
+  font-weight: 700;
+}
+
+// Sidebar active link
+.sidebar-item-text.sidebar-link.active,
+.sidebar nav a.active {
+  color: #6b7fcf !important;
+  font-weight: 600;
+  border-left: 3px solid #2dcfa0;
+  padding-left: 0.5rem;
+}
+
+// Sidebar links on hover
+.sidebar nav a:hover {
+  color: #2dcfa0 !important;
+}
+
+// Chapter/section headings
+h1, h2, h3 {
+  color: #8fa3e0;
+}
+
+h4, h5, h6 {
+  color: #2dcfa0;
+}
+
+// Callout accent border
+.callout {
+  border-left-color: #6b7fcf;
+}
+
+// Buttons
+.btn-primary {
+  background-color: #6b7fcf;
+  border-color: #6b7fcf;
+}
+
+.btn-secondary {
+  background-color: #2dcfa0;
+  border-color: #2dcfa0;
+  color: #0a1510;   // very dark green-black; contrast ratio > 4.5:1 against #2dcfa0
+}
+
+// Code block header bar
+div.sourceCode > pre {
+  border-top: 3px solid #6b7fcf;
+}
+
+// Page-footer accent
+.nav-footer {
+  border-top: 2px solid #2dcfa0;
+}
+
+// Table header
+thead {
+  background-color: #1e2d6e;
+  color: #e8ecf7;
+}
