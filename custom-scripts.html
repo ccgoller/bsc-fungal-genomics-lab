@@ -3,11 +3,7 @@
   'use strict';
 
   /* ─── Announcement Banner ──────────────────────────────────────────────── */
-  var BANNER_DISMISSED_KEY = 'bsc495-banner-dismissed';
-
   function insertBanner() {
-    if (localStorage.getItem(BANNER_DISMISSED_KEY) === 'true') return;
-
     var header = document.getElementById('quarto-header');
     if (!header) return;
 
@@ -36,7 +32,6 @@
       banner.style.overflow = 'hidden';
       setTimeout(function () {
         banner.remove();
-        localStorage.setItem(BANNER_DISMISSED_KEY, 'true');
       }, 320);
     });
 
