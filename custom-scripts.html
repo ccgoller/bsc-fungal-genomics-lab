@@ -74,15 +74,55 @@
     sidebar.insertAdjacentElement('afterbegin', btn);
   }
 
+  /* ─── Deep Reader Mode ─────────────────────────────────────────────────── */
+  var DEEP_READER_MODE_KEY = 'bsc495-deep-reader-mode';
+
+  function setupDeepReaderMode() {
+    var sidebar = document.getElementById('quarto-sidebar');
+    if (!sidebar) return;
+
+    var btn = document.createElement('button');
+    btn.id = 'deep-reader-mode-toggle';
+    btn.setAttribute('aria-pressed', 'false');
+    btn.title = 'Toggle Deep Reader Mode';
+    btn.innerHTML =
+      '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">' +
+        '<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>' +
+        '<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>' +
+      '</svg>' +
+      '<span class="deep-reader-mode-label">Deep Reader Mode</span>';
+
+    btn.addEventListener('click', function () {
+      var isOn = document.body.classList.toggle('deep-reader-mode');
+      btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
+      localStorage.setItem(DEEP_READER_MODE_KEY, isOn ? 'on' : 'off');
+    });
+
+    if (localStorage.getItem(DEEP_READER_MODE_KEY) === 'on') {
+      document.body.classList.add('deep-reader-mode');
+      btn.setAttribute('aria-pressed', 'true');
+    }
+
+    // Insert after the reader-mode-toggle if it exists, otherwise at the top
+    var readerBtn = document.getElementById('reader-mode-toggle');
+    if (readerBtn) {
+      readerBtn.insertAdjacentElement('afterend', btn);
+    } else {
+      sidebar.insertAdjacentElement('afterbegin', btn);
+    }
+  }
+
   /* ─── Init ─────────────────────────────────────────────────────────────── */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () {
       insertBanner();
       setupReaderMode();
+      setupDeepReaderMode();
     });
   } else {
     insertBanner();
     setupReaderMode();
+    setupDeepReaderMode();
   }
 }());
 </script>
