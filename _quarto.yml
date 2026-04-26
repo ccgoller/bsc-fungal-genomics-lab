@@ -30,7 +30,6 @@ book:
   page-footer: 
     left: "CC BY, Carlos C. Goller" 
   downloads: [pdf, epub, docx]
-  repo-url: https://github.com/BSC495-HWC
   search:
     location: navbar
     type: overlay
