@@ -16,7 +16,7 @@
         '<span class="announcement-icon" aria-hidden="true">&#128226;</span>' +
         '<p class="announcement-text">' +
           '<strong>Spring 2026 &nbsp;|&nbsp; BSC 495: The Hidden World\'s Code</strong>' +
-          ' &mdash; Welcome! Office hours and the course schedule are posted on the ' +
+          ' &mdash; Welcome! The course schedule is posted on the ' +
           '<a href="index.html">Preface</a> page. Reach out on the course discussion board with questions.' +
         '</p>' +
         '<button class="announcement-close" aria-label="Dismiss announcement" title="Dismiss">' +
@@ -58,11 +58,7 @@
     btn.id = 'deep-reader-mode-toggle';
     btn.setAttribute('aria-pressed', 'false');
     btn.title = 'Toggle Deep Reader Mode';
-    btn.innerHTML =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">' +
-        '<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>' +
-        '<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>' +
-      '</svg>';
+    btn.innerHTML = '<i class="bi bi-layout-text-sidebar-reverse" aria-hidden="true"></i>';
 
     var navItem = document.createElement('li');
     navItem.className = 'nav-item compact';
