@@ -55,6 +55,7 @@ format:
     include-after-body: custom-scripts.html
   pdf:
     documentclass: scrreprt
+  docx: default
 
 execute:
   freeze: auto
