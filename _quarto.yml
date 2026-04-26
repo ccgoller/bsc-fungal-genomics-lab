@@ -44,7 +44,7 @@ book:
         href: https://github.com/BSC495-HWC
         aria-label: GitHub
 
-sidebar:
+  sidebar:
     background: light
     logo: BSC495logo-transparent.png
     logo-alt: "The Hidden World's Code"
