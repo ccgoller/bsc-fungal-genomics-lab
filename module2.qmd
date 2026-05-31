@@ -9,7 +9,7 @@
 
 ### Instructor Laboratory Preparation Instructions
 
-#### Materials
+#### Materials and Equipment
 
 - [ ] Cellophane (rinsed, individually wrapped in gauze, and autoclaved)
 - [ ] 100x15mm Petri dishes
@@ -24,6 +24,8 @@
 - [ ] Ruler
 - [ ] Fine-tip Sharpie or marker for labeling plates
 - [ ] Paper towels/Kimwipes
+- [ ] Incubators set to 4 °C, room temperature (~20 °C), and 28 °C
+- [ ] Refrigerator for storing plates at ~4 °C
 - [ ] Autoclave
 
 **Lab Prep**
@@ -80,17 +82,17 @@ Today, we will isolate, or subculture, these fungi onto PDA agar (Potato Dextros
 This project is part of the [Myco-Ed Fungal Genomics Education Project](https://mycocosm.jgi.doe.gov/mycocosm/home/myco-ed). The goal of this long-term research project is to develop annotated genomes of fungal endophytes to better understand their ecology and how they impact their host plants.
 
 ### Learning Goals
-1. Practice sterile technique
-2. Culture and isolate fungi
-3. Investigate fungal endophytes
-4. Characterize morphology of fungal cultures
-5. Create data spreadsheets
-6. Isolate fungi for molecular extraction and analysis
-7. Create growth curves
+1. **Practice** sterile technique
+2. **Culture** and **isolate** fungi
+3. **Investigate** fungal endophytes
+4. **Characterize** morphology of fungal cultures
+5. **Create** data spreadsheets
+6. **Isolate** fungi for molecular extraction and analysis
+7. **Create** growth curves
 
 ### Instructions
 
-#### Materials
+#### Materials and Equipment
 - [ ] Fungal endophyte sample plates
 - [ ] PDA plates (60x15 mm)
 - [ ] 70% ethanol

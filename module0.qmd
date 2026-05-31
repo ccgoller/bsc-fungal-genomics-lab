@@ -30,7 +30,16 @@ This table lists all materials and equipment required across Myco-Ed modules. Th
 | Module 2 – Fungal Isolation | Equipment | Autoclave | Sterilization of media and equipment |  |  |
 | Module 2 – Fungal Isolation | Supply | Sharpie/lab marker | Plate labeling |  |  |
 | Module 2 – Fungal Isolation | Reagent | 70% ethanol | Surface sterilization |  |  |
-| Module 3 – Phenotypic Assays | Mixed | Varies by assay | Materials depend on chosen phenotypic assay |  |  |
+| Module 3 – Phenotypic Assays | Reagent | Potato Dextrose Agar (PDA) | Base medium for Zn and temperature assays |  |  |
+| Module 3 – Phenotypic Assays | Reagent | Streptomycin (50 mg/mL) | Optional additive to reduce bacterial contamination |  |  |
+| Module 3 – Phenotypic Assays | Reagent | Zinc sulfate | Zn stress assay treatment concentrations (0, 1, 10 mM) |  |  |
+| Module 3 – Phenotypic Assays | Supply | Cellophane discs | Rinsed and autoclaved discs for tissue growth workflows |  |  |
+| Module 3 – Phenotypic Assays | Equipment | Incubators (4 °C, ~20 °C, 28 °C) | Controlled temperature conditions for growth assays |  |  |
+| Module 3 – Phenotypic Assays | Reagent | BlueMount fungal stain (Lactophenol Cotton Blue with PVA) | Microscopy stain for fungal structures | Hardy Diagnostics | Z137 |
+| Module 3 – Phenotypic Assays | Equipment | Compound microscope | Microscopy for fungal morphology documentation |  |  |
+| Module 3 – Phenotypic Assays | Method | Zn stress assay | Measure growth response on PDA with 0, 1, and 10 mM Zn |  |  |
+| Module 3 – Phenotypic Assays | Method | Fungal microscopy assay | Stain and observe fungal structures for morphology |  |  |
+| Module 3 – Phenotypic Assays | Method | Temperature growth assay | Compare growth at 4 °C, room temperature, and 28 °C |  |  |
 | Module 4 – DNA Sequencing | Equipment | Thermal cycler | PCR amplification |  |  |
 | Module 4 – DNA Sequencing | Equipment | Vortex | Sample mixing |  |  |
 | Module 4 – DNA Sequencing | Equipment | Centrifuge | PCR and microfuge tube centrifugation |  |  |

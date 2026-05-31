@@ -9,7 +9,7 @@
 
 ### Instructor Laboratory Preparation Instructions
 
-#### Materials
+#### Materials and Equipment
 
 - [ ] Cellophane discs (rinsed and individually wrapped before autoclaving)
 - [ ] 150x10mm Petri dishes
@@ -211,11 +211,11 @@ All lineages of fungi contain endophytic species, however the majority of fungal
 
 
 ### Learning Goals
-1. Documentation using iNaturalist
-2. Practice sterile technique
-3. Culture and isolate fungi
-4. Investigate fungal endophytes
-5. Characterize morphology of fungal cultures
+1. **Document** fungal isolation using iNaturalist
+2. **Practice** sterile technique
+3. **Culture** and **isolate** fungi
+4. **Investigate** fungal endophytes
+5. **Characterize** morphology of fungal cultures
 
 ### Materials
 - [ ] 3 large water agar Petri plates (150 x 10 mm)per student - these are for initial isolation
