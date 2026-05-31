@@ -27,7 +27,7 @@
 - [ ] Autoclave or pressure cooker
 - [ ] Refrigerator for storing plates
 
-**Lab Prep and Sterility:**
+**Lab Prep and Sterility**
 We will be working at the bench and without Bunsen burners. **Be very careful and do not leave plates open for long periods.** First, clean your work area with bleach, and/or ethanol. We will use clean benches and laminar flow hoods when available, but this is a good alternative for those without access to these resources.
 
 ::: {.callout-warning}
@@ -63,7 +63,7 @@ Record metadata on the [**Endophyte spreadsheet**](https://docs.google.com/sprea
 ### Sample Naming
 Your individual fungal isolates will be identified using several identifiers. The first will be the unique **Host ID number from iNaturalist** that identifies the host for the fungi you isolate. Second will be **your initials**. Please use at least 3 initials since some large courses may have students with shared initials. Third, **each individual leaf you cultured fungi from will be a separate number**. If you take multiple samples from the same leaf, they will be identified by letters. For example, if you have one leaf or needle with 3 different sections, they would be 1a, 1b, and 1c.
 
-**Example:** You have leaves collected from a maple tree on your campus. This tree was logged in iNaturalist and given a unique field number MycoED_004 (or whatever format the field numbers are provided in by your instructor/TA). Let's assume your initials are ABC. From this collection, you have three leaves that you culture from: leaf 1, leaf 2, and leaf 3. From each of these leaves, you take six segments or sections, so these are letters a-f. So, if you isolate a fungus from the second leaf, third section, and your initials are ABC, the name of the isolate would look like MycoED_004_ABC_2c.
+**Example:** You have leaves collected from a maple tree on your campus. This tree was logged in iNaturalist and given a unique field number MycoED_004 (or whatever format the field numbers are provided in by your instructor/TA and iNaturalist). Let's assume your initials are ABC. From this collection, you have three leaves that you culture from: leaf 1, leaf 2, and leaf 3. From each of these leaves, you take six segments or sections, so these are letters a-f. So, if you isolate a fungus from the second leaf, third section, and your initials are ABC, the name of the isolate would look like MycoED_004_ABC_2c.
 
 With this naming scheme, anyone can trace the 1) plant host, 2) the researcher, 3) and the leaf and leaf section the fungal isolate came from. No other fungus will have this precise labeling unless additional fungi were isolated from this leaf section. After that step you will need to add additional identifiers.
 
@@ -217,8 +217,8 @@ All lineages of fungi contain endophytic species, however the majority of fungal
 4. Investigate fungal endophytes
 5. Characterize morphology of fungal cultures
 
-### Lab Supplies
-- [ ] 3 large water agar Petri plates (150 x 10 mm) - these are for initial isolation
+### Materials
+- [ ] 3 large water agar Petri plates (150 x 10 mm)per student - these are for initial isolation
 - [ ] Sharpie or marker for labeling plates
 - [ ] Parafilm
 - [ ] Paper towels
@@ -293,5 +293,9 @@ Label the @fig-Wateragar plate with your name and divide into six sections. Labe
 6. Add tissue to water agar. Place up to 6 leaf cuttings per plate of water agar labeled as described @fig-SamplesWaterAgar. The water agar plates are the larger plates that contain clear to whitish media. Use sterile technique. Be sure to sterilize forceps (heat with flame and cool) in between each leaf transfer.
 7. Seal the Petri dish with Parafilm. This is a stretchy material similar to Saran Wrap. Cut a strip a little wider than the Petri dish. Remove the paper backing. Hold one end of the Parafilm strip on the lip of the Petri dish so that the gap between the lid and base is covered by the Parafilm. Keeping one end fixed with one hand, stretch and wrap the parafilm around the Petri dish, sealing the gap between the lid and base of the Petri dish. The stretching of the Parafilm will facilitate the seal, you will not need any tape to keep the Parafilm in place.
 8. Incubate at room temperature in the dark and examine for growth each day.
+
+::: {.callout-note}
+In the summer of 2026 we incubated at 28 °C, but room temperature is fine. You should see fungal growth within 3-7 days. If you do not see growth after 7 days, you can try re-plating the leaf tissue on a fresh water agar plate. If you have access to a laminar flow hood or clean bench, you can also try plating on PDA media which may facilitate fungal growth.
+:::
 
 ![Place Leaf Samples on Water Agar Plates. Take a large water agar plate and divide it into six sections using a ruler and marker. Place leaf samples in each section after surface sterilizing and rinsing in ethanol. Figure created with BioRender.com.](images/LeafSamplesWaterAgar.png){#fig-SamplesWaterAgar fig-alt="Place leaf samples on water agar plates." fig-align="center" lightbox="true"}

@@ -26,7 +26,7 @@
 - [ ] Paper towels/Kimwipes
 - [ ] Autoclave
 
-**Lab Prep:**
+**Lab Prep**
 
 ::: {.callout-important}
 Read all directions and gather all supplies before beginning. Carefully clean your work area with bleach, and/or ethanol.

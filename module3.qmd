@@ -15,12 +15,28 @@
 - [ ] Laminar flow hood (if available)
 - [ ] 60x15 mm Petri dishes
 - [ ] Bacteriological agar
-- [ ] Potato Dextrose Agar (PDA) with antibiotics
+- [ ] Potato Dextrose Agar (PDA)
+- [ ] Streptomycin (50 mg/ml) [optional, but recommended to prevent bacterial contamination]
 - [ ] Zinc sulfate
-- [ ] Cellophane discs
+- [ ] Cellophane discs (rinsed and autoclaved individually)
 - [ ] Forceps
-- [ ] Scalpel (sterilized)
+- [ ] Scalpel (sterilized or disposable)
+- [ ] Ethanol jar
+- [ ] Parafilm
+- [ ] Marker for labeling plates
+- [ ] Ruler for measuring growth (mm ruler)
+- [ ] Incubators set to 4 °C, room temperature (~20 °C), and 28 °C
+- [ ] Refrigerator for storing plates at ~4 °C
+- [ ] 70% ethanol for sterilization
 
+
+**Lab Prep and Sterility**
+We will be working at the bench and without Bunsen burners. **Be very careful and do not leave plates open for long periods.** First, clean your work area with bleach, and/or ethanol. We will use clean benches and laminar flow hoods when available, but this is a good alternative for those without access to these resources.
+
+::: {.callout-warning}
+We are working with *unknown* fungi, which are generally not harmful to humans, but can cause allergic reactions in some individuals. Always practice good sterile technique and handle all materials with care. If you have any concerns about allergies or sensitivities, please consult with your instructor before beginning the lab.
+**Work carefully and do not leave plates open for long periods of time.**
+:::
 **Potato Dextrose Agar (PDA) with Zn Plates for Zn Stress Assay:**
 Suspend 39 grams Potato Dextrose Agar in 1000 ml (1 L) distilled water (or follow the directions on the bottle label). Add the appropriate amount of Zn sulfate to obtain concentrations of 1 mM Zn and 10 mM Zn in the media bottle. Heat to boiling to dissolve the medium completely (in most cases, this step can be skipped as autoclaving will dissolve media). Sterilize by autoclaving at 15 lbs pressure (121°C) for 15 minutes.
 
@@ -33,25 +49,42 @@ Working in your sterile environment, place one cellophane disc onto cooled PDA a
 
 ## Module 3.2 – Phenotypic Assays
 
-### Phenotypic Assays
+### Purpose
+This lab will introduce you to sterile technique, culturing fungi, isolating cultures, and documenting fungal growth. We will be investigating how fungal isolates react to environmental stressors, including zinc (Zn) and temperature. We will also be characterizing the morphology of fungal cultures and creating data spreadsheets to record growth rates. Finally, we will be isolating fungi for molecular extraction and analysis in the next module.
 
-**Objectives:**
+### Learning Goals
 1. Determine how fungal isolates react to environmental stressors
+2. Practice sterile technique
+3. Culture and isolate fungi
+4. Investigate fungal endophytes
+5. Characterize morphology of fungal cultures
+6. Create data spreadsheets
+7. Isolate fungi for molecular extraction and analysis
+7. Record data to create growth curves
 
-**Materials:**
-- Student fungal isolates
+### Instructions
 
-**Procedures:**
+#### Materials
+- [ ] Student fungal isolates
+- [ ] PDA with antibiotics (3 per student)
+- [ ] PDA with antibiotics and Zn (3 per student)
+- [ ] Fine tip Sharpie or marker
+- [ ] Agar cutting tool and whole punch
+- [ ] Ethanol jar for sterilization
+- [ ] Incubators set to 4 °C, room temperature (~20 °C), and 28 °C
+
+**Procedures**
 - Observe your fungal cultures and determine if they are pure cultures
 - We will use these cultures to set up stress tests (Zn assay and temperature assay) and for molecular identification.
 
-### Zn Stress Assay
+#### Part I: Zn Stress Assay
 In this lab, we will be investigating the tolerance and growth response of foliar fungal endophytes to varying concentrations of zinc (Zn). Zinc is an essential trace element for many biological processes, but in elevated concentrations, it can become toxic to fungi and other microorganisms. To understand how these fungi cope with different levels of Zn, we will isolate fungal endophytes from plant leaves and subject them to media containing 0 mM, 1 mM, and 10 mM of Zn. By measuring their growth rates over several weeks, we aim to determine the impact of Zn on their growth and survival.
 
 Testing foliar fungal endophytes for Zn tolerance is particularly relevant as these fungi play crucial roles in plant health and ecosystem functioning. Endophytes can enhance plant growth, provide resistance to pathogens, and contribute to nutrient cycling. Understanding their tolerance to heavy metals like Zn is important for ecological studies, especially in areas affected by pollution or where plants are used in phytoremediation efforts. By assessing their ability to thrive in environments with varying Zn concentrations, we can gain insights into their resilience and potential applications in sustainable agriculture and environmental management.
 
-**Objectives:**
+#### Objectives
 1. Determine if the fungal isolates are tolerant of Zn.
+
 2. Measure how different concentrations of Zn influence fungal growth rates.
 
 #### Materials
@@ -63,15 +96,54 @@ Testing foliar fungal endophytes for Zn tolerance is particularly relevant as th
 - [ ] Agar cutting tool and whole punch
 - [ ] Ethanol jar
 
-**Procedures:**
+**Procedure:**
 - Label your plates with identifying information
-- On the bottom of each plate, draw four lines that intersect in the center of the plate (Figure 1)
+- On the bottom of each plate, draw four lines that intersect in the center of the plate
 - Cut out three 0.5 cm² chunks from the edge of your pure culture and place one in the center of each of the Zn plates
 - Close and parafilm your plates
 - Carefully, flip the plates over and trace the cube using a fine tip Sharpie
 - Place the plate (unflipped) at room temperature in the dark and observe growth over the next few weeks
 
-### Temperature Assays
+#### Part II: Fungal Microscopy
+In this lab, we will perform microscopic examinations of the fungal cultures to analyze their morphology and cellular characteristics.
+
+We will prepare slides of our fungal isolates and use a compound microscope to observe their structures. This will allow us to identify key features such as hyphal structure, spore formation, and other morphological traits that can help in the identification and characterization of the fungi. By comparing these microscopic observations with known fungal characteristics, we can gain insights into the diversity and taxonomy of our isolates.
+
+#### Objectives
+1. Prepare slides of fungal cultures for microscopic examination.
+
+2. Document and analyze the morphological characteristics of the fungal isolates under the microscope.
+
+#### Materials
+- [ ] Pure fungal cultures
+- [ ] Microscope slides and cover slips
+- [ ] Staining reagents (e.g., lactophenol cotton blue)
+- [ ] Hardy Diagnostics BlueMount, Permanent Fungal Stain, Lactophenol Cotton Blue with PVA
+- [ ] Compound microscope with appropriate magnification
+- [ ] Fine tip Sharpie or marker
+- [ ] Agar cutting tool and whole punch
+- [ ] Ethanol jar
+- [ ] Parafilm
+- [ ] Sterile tip or forceps for handling fungal samples
+
+**Procedure:**
+Adapted from Hardy Diagnostics Fungal Stain Protocol: BlueMount™, Permanent Fungal Stain, Lactophenol Cotton Blue with PVA, Hardy Diagnostics [BlueMount Permanent Fungal Stain](https://www.hardydiagnostics.com/assets/pdf/BlueMount_Permanent_Fungal_Stain_Lactophenol_Cotton_Blue_with_PVA.pdf).
+1.  Place one drop of BlueMount™ in the center of a clean slide.
+2. Remove a fragment of the fungus colony 2-3 mm from the colony edge using an innoculating loop or p1000 tip.
+3. Place the fragment in the drop of stain and tease gently
+4. Place the fragment in the drop of stain and tease gently.
+5. Apply a coverslip.
+
+::: {.callout-warning}
+Do not push down or tap the cover slip as this may dislodge the conidia from the conidiophores.
+
+:::
+
+6. Examine the preparation under low and high, dry magnification for the presence of characteristic mycelia and fruiting structures. Consult appropriate references for diagnostic features of fungi isolated in clinical and non-clinical specimens.
+7. Document your observations by drawing the structures you see and taking notes on their characteristics (e.g., shape, size, color, arrangement).
+8. Compare your observations with known fungal characteristics to help identify and classify your isolates.
+
+### Part III:Temperature Assays
 In this lab, we will explore the effects of temperature on the growth and survival of foliar fungal endophytes. Temperature is a critical environmental factor that influences fungal physiology and ecological dynamics. To investigate how these fungi respond to different thermal conditions, we will isolate fungal endophytes from plant leaves and cultivate them at three distinct temperatures: 4°C, room temperature (approximately 20°C), and 28°C. By measuring their growth rates over several weeks, we will better understand their tolerance to different temperatures.
 
 **Objectives:**
@@ -79,19 +151,19 @@ In this lab, we will explore the effects of temperature on the growth and surviv
 2. Measure how different temperatures influence fungal growth rates.
 
 **Materials:**
-- Pure cultures (2 per student)
-- PDA with antibiotics (6 per student)
-- Fine tip Sharpie or marker
-- Culture cutting tool
-- Ethanol jar
+- [ ] Pure cultures (2 per student)
+- [ ] PDA with antibiotics (6 per student)
+- [ ] Fine tip Sharpie or marker
+- [ ] Culture cutting tool
+- [ ] Ethanol jar
 
 **Procedures:**
-- Label your plates with identifying information and growth temperatures (2 per temp.)
-- On the bottom of each plate, draw four lines that intersect in the center of the plate (Figure 6.1)
-- Cut out three 0.5 cm chunks from the edge of your pure culture and place one in the center of each of the temperature plates
-- Close and parafilm your plates
-- Carefully, flip the plates over and trace the cube using a fine-tip Sharpie
-- Bring your plates to the front of the class and place them (unflipped) in the correct box for incubation
+1. Label your plates with identifying information and growth temperatures (2 per temp.)
+2. On the bottom of each plate, draw four lines that intersect in the center of the plate.
+3. Cut out three 0.5 cm chunks from the edge of your pure culture and place one in the center of each of the temperature plates
+4. Close and parafilm your plates
+5. Carefully, flip the plates over and trace the cube using a fine-tip marker
+6. Bring your plates to the front of the class and place them (unflipped) in the correct box for incubation
 
 ### Measuring Fungal Growth
 
@@ -100,12 +172,12 @@ In this lab, we will explore the effects of temperature on the growth and surviv
 2. Measure growth for temperature assay
 
 **Materials:**
-- Fine tip Sharpie
-- Three Zn culture plates
-- Three temperature culture plates
-- Ruler to measure growth in mm (mm ruler)
+- [ ] Fine tip Sharpie
+- [ ] Three Zn culture plates
+- [ ] Three temperature culture plates
+- [ ] Ruler to measure growth in mm (mm ruler)
 
 **Procedures:**
-- On the bottom of the plate, trace the edge of your fungal culture
-- Measure, in mm, new growth at each of the four edges along the lines
-- Average the eight measurements to get the average growth and determine the average growth rate (distance/time)
+1. On the bottom of the plate, trace the edge of your fungal culture
+2. Measure, in mm, new growth at each of the four edges along the lines
+3. Average the eight measurements to get the average growth and determine the average growth rate (distance/time)
