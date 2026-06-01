@@ -410,8 +410,8 @@
 .reveal .slides section {
   box-sizing: border-box;
   padding: clamp(1.4rem, 2.2vw, 3rem) clamp(1.4rem, 2.5vw, 3.5rem) !important;
-  max-height: 100%;
-  overflow-y: auto;
+  max-height: none;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 

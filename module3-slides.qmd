@@ -5,6 +5,7 @@ author: "Carlos C. Goller"
 format:
   revealjs:
     theme: default
+    slide-level: 4
     slide-number: true
     logo: BSC495logo-transparent.png
     footer: "BSC 495 | Module 3: Phenotypic Assays | CC BY Carlos C. Goller"
@@ -12,7 +13,7 @@ format:
     transition: slide
     background-transition: fade
     incremental: false
-    scrollable: true
+    scrollable: false
     css: module-slides.css
 ---
 
