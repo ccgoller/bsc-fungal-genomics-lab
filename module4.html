@@ -472,8 +472,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="module-4.1-dna-sequencing-and-species-identification-instructor-resources">Module 4.1 – DNA Sequencing and Species Identification Instructor Resources</h2>
 <section id="instructor-laboratory-preparation-instructions" class="level3">
 <h3 class="anchored" data-anchor-id="instructor-laboratory-preparation-instructions">Instructor Laboratory Preparation Instructions</h3>
-<section id="materials" class="level4">
-<h4 class="anchored" data-anchor-id="materials">Materials</h4>
+<section id="materials-and-equipment" class="level4">
+<h4 class="anchored" data-anchor-id="materials-and-equipment">Materials and Equipment</h4>
 <p>This list may vary depending on your preferred extraction, amplification, and sequencing protocols.</p>
 <ul class="task-list">
 <li><label><input type="checkbox">1.5mL microcentrifuge tubes (Eppendorf DNA LoBind)</label></li>
@@ -489,7 +489,7 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">70% ETOH</label></li>
 <li><label><input type="checkbox">1-10, 20-200, and 100-1000 µL micropipettors</label></li>
 <li><label><input type="checkbox">1-10, 20-200, and 100-1000 µL micropipette tips (preferably filtered)</label></li>
-<li><label><input type="checkbox">Kimwipes</label></li>
+<li><label><input type="checkbox">Kimwipes and/or paper towels</label></li>
 <li><label><input type="checkbox">PCR primers (ITS1f, ITS4, 5.8SR, fITS7) ordered from Integrated DNA Technologies (IDT) or similar supplier, normalized to 100 µM in TE buffer. The following primers are commonly used for fungal DNA barcoding:</label>
 <ul>
 <li>ITS1f: 5’-CTTGGTCATTTAGAGGAAGTAA-3’</li>
@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">Ultrapure BSA 50mg/ml (ThermoFisher, AM2616) for long-read sequencing</label></li>
 <li><label><input type="checkbox">1.5mL microcentrifuge tubes (Eppendorf DNA LoBind) for long-read sequencing</label></li>
 <li><label><input type="checkbox">Gloves</label></li>
-<li><label><input type="checkbox">Sharpie</label></li>
+<li><label><input type="checkbox">Sharpie or markers</label></li>
 <li><label><input type="checkbox">Nuclease-free water and 100% ethanol to prepare 80% ethanol for long-read sequencing</label></li>
 <li><label><input type="checkbox">Thermal cycler</label></li>
 <li><label><input type="checkbox">Vortex</label></li>
@@ -518,7 +518,8 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">Heat block/thermomixer for 1.5-2.0 ml microfuge tubes</label></li>
 <li><label><input type="checkbox">Magnetic rack for 1.5ml microcentrifuge tubes (for example, ThermoFisher DynaMag-2, 12321D) for long-read sequencing</label></li>
 </ul>
-<p><strong>Diluting and prepping PCR primers</strong> 1. To dilute the vial to a stock concentration of 100 picomols/microliter, first read the number of µmols present in the tube. a. Using this number, divide by 10, and add that many µL of PCR pure water to the tubes. This will give you a concentration of 100 pmol/µL 2. To make PCR-ready primers, we need to dilute the concentration to 10 pmol/µL. a. Add 180 µL PCR pure water to a 1.5 mL microcentrifuge tube. b. Label the tube according to the primer being added. c.&nbsp;Add 20 µL of the 100 pmol/µL concentration primer.</p>
+<p><strong>Diluting and prepping PCR primers</strong> 1. Verify the primers are correct and received at 100 µM. Label the tubes as “Primer Stocks.” 2. Label the tube according to the primer being added. 3. Make 10 µM working stocks by diluting 20 µl of primer stock into 180 µl nuclease water.</p>
+<p><strong>Prepare Metapolyzyme and DNA Extraction Reagents</strong>* - [ ] Dissolve Metapolyzyme vial in 100 µl of DNA-free PBS. Note that 10 µl of metapolyzyme is used per sample. You may need more than one vial. - [ ] Distribute spin columns, Lo-bind tubes, collection tubes, TE buffer, PBS, and elution buffer to each group (enough for the number of samples per group) - [ ] Prepare gel electrophoresis systems, loading dye, and DNA ladder as needed. - [ ] Prepare PCR cleanup or NEB Exo-CIP™ Rapid PCR Cleanup Kit. - [ ] Prepare materials for Sanger sequencing. - [ ] Prepare Oxford Nanopore Technologies (ONT) device, flow cell(s), and kit.</p>
 </section>
 </section>
 </section>
@@ -543,8 +544,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Identification of fungal cultures requires knowledge and techniques beyond the scope of this course. Luckily, we can use DNA sequencing of the fungal barcode region (ITS rDNA) to identify our isolates. To do this, you must (1) extract gDNA from a pure culture of your fungal isolate; (2) specifically amplify (make millions of copies) a portion of the ITS rDNA region using polymerase chain reaction (PCR); (3) sequence the PCR product using Sanger sequencing; and (4) submit your sequences for comparison against an online gene database (NCBI’s GenBank).</p>
 <p>In this part of the module, you will extract DNA from your fungal isolates. There are many ways to isolate DNA from fungi. Here, we will use a very simple kit that uses an alkaline (pH 9.5-10) extraction solution at high heat to disrupt cells and release gDNA.</p>
 </section>
-<section id="materials-and-equipment" class="level4">
-<h4 class="anchored" data-anchor-id="materials-and-equipment">Materials and Equipment</h4>
+<section id="materials-and-equipment-1" class="level4">
+<h4 class="anchored" data-anchor-id="materials-and-equipment-1">Materials and Equipment</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">Fungal isolates</label></li>
 <li><label><input type="checkbox">0.2 mL PCR tubes</label></li>
@@ -573,8 +574,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The PCR reaction consists of mixing your template DNA with two primers: short sequences of DNA that are complementary to the ends of the region you want to amplify. The forward primer binds to one strand at the beginning of the region, and the reverse primer binds to the complementary strand at the end of the region. Primers are designed using computer databases of gene sequences, and synthesized chemically. In addition to the primers, Taq polymerase (or a synthetic polymerase enzyme), and your DNA, the PCR reaction also needs a buffer containing MgCl2 and dNTPs (the four bases of DNA). The reaction is run on a machine called a thermal cycler, which automatically heats the reaction first to 95 °C to melt the double-stranded DNA (break H-bonds between strands), then to about 53 °C to allow the primers to anneal to the template DNA, and finally to 72 °C to allow the polymerase to add dNTPs and extend the product. Typically, scientists run 25-35 cycles of this reaction, producing 225 - 235 copies of the target region.</p>
 <p>Figure 1: rDNA region containing the variable regions ITS-1 and ITS-2. Our forward primer (ITS-1F) will target a portion of the SSU and our reverse primer (ITS4) will target a portion of the LSU. Thereby, amplifying both variable regions and the 5.8S subunit.</p>
 </section>
-<section id="materials-1" class="level4">
-<h4 class="anchored" data-anchor-id="materials-1">Materials</h4>
+<section id="materials" class="level4">
+<h4 class="anchored" data-anchor-id="materials">Materials</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">DNA extraction kit</label></li>
 <li><label><input type="checkbox">Control DNA sample</label></li>
