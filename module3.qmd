@@ -158,8 +158,8 @@ Do not push down or tap the cover slip as this may dislodge the conidia from the
 
 
 
-### Part III: Temperature Assays
-In this lab, we will explore the effects of temperature on the growth and survival of foliar fungal endophytes. Temperature is a critical environmental factor that influences fungal physiology and ecological dynamics. To investigate how these fungi respond to different thermal conditions, we will isolate fungal endophytes from plant leaves and cultivate them at three distinct temperatures: 4°C, room temperature (approximately 20°C), and 28°C. By measuring their growth rates over several weeks, we will better understand their tolerance to different temperatures.
+### Part III: Temperature Assays (optional)
+Another approach to studying fungal physiology is to examine the effects of temperature on the growth and survival of foliar fungal endophytes. Temperature is a critical environmental factor that influences fungal physiology and ecological dynamics. To investigate how these fungi respond to different thermal conditions, we will isolate fungal endophytes from plant leaves and cultivate them at three distinct temperatures: 4°C, room temperature (approximately 20°C), and 28°C. By measuring their growth rates over several weeks, we will better understand their tolerance to different temperatures.
 
 **Objectives:**
 
