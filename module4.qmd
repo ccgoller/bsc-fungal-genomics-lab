@@ -5,13 +5,14 @@
 [Open Module 4 Slides](module4-slides.html)
 :::
 
-## Module 4.1 – DNA Sequencing and Species Identification Instructor Resources
+## Module 4.1 – ITS Amplification and Sanger Sequencing and Nanopore Sequencing Instructor Resources
 
 ### Instructor Laboratory Preparation Instructions
 
-#### Materials
+#### Materials and Equipment
 This list may vary depending on your preferred extraction, amplification, and sequencing protocols.
 
+- [ ] Pure culture of fungal isolates
 - [ ] Gloves
 - [ ] Sharpie
 - [ ] Thermal cycler
@@ -48,9 +49,9 @@ This list may vary depending on your preferred extraction, amplification, and se
 - [ ] MinION flow cells (R10.4.1 or similar, Oxford Nanopore Technologies, FLO-MIN114)
 - [ ] Ultrapure BSA 50mg/ml (ThermoFisher, AM2616) for long-read sequencing
 - [ ] 1.5mL microcentrifuge tubes (Eppendorf DNA LoBind) for long-read sequencing
-* 0.2 mL PCR tubes for long-read sequencing
-* Magnetic rack for 1.5ml microcentrifuge tubes (for example, ThermoFisher DynaMag-2, 12321D) for long-read sequencing
-* Nuclease-free water and 100% ethanol to prepare 80% ethanol for long-read sequencing
+- [ ] 0.2 mL PCR tubes for long-read sequencing
+- [ ] Magnetic rack for 1.5ml microcentrifuge tubes (for example, ThermoFisher DynaMag-2, 12321D) for long-read sequencing
+- [ ] Nuclease-free water and 100% ethanol to prepare 80% ethanol for long-read sequencing
 
 **Diluting and prepping PCR primers**
 1. To dilute the vial to a stock concentration of 100 picomols/microliter first read the number of µmols present in the tube.
@@ -70,61 +71,57 @@ The purpose of this module is to molecularly identify fungal isolates using the 
 2. Successfully PCR amplify fungal ITS
 3. Learn to BLAST ITS sequence to identify fungal isolates
 
-### Part I: DNA Extraction
+### Part I: ITS PCR Amplification
 
 #### Introduction
 Identification of fungal cultures requires knowledge and techniques beyond the scope of this course. Luckily, we can use DNA sequencing of the fungal barcode region (ITS rDNA region) to obtain an identification for our isolates. To do this, you must (1) extract gDNA from a pure culture of your fungal isolate; (2) specifically amplify (make millions of copies) a portion of the ITS rDNA region using polymerase chain reaction (PCR); (3) sequence the PCR product using Sanger sequencing; and (4) submit your sequences for comparison against an online gene database (NCBI's GenBank).
 
-In this part of the module, you will extract DNA from your fungal isolates. There are many ways to isolate DNA from fungi. Here we will use a very simple kit that uses an alkaline (pH 9.5-10) extraction solution at high heat to disrupt cells and release gDNA.
+In this part of the module, you will extract DNA from your fungal isolates by boiling. There are many ways to isolate DNA from fungi. Here we will use a very simple extraction solution at high heat to disrupt cells and release gDNA.
 
 #### Materials
-- [ ] Fungal isolates
-- [ ]0.2 mL PCR tubes
-- [ ]P20 micropipette with tips
-- [ ]DNA extraction kit (New England BioLabs, Monarch® Spin gDNA Extraction Kit, T3010S)
-- [ ]DNA quantification system (for example, Qubit Fluorometer with dsDNA HS Assay Kit, ThermoFisher, Q32851)
-- [ ]Ethanol jar
-- [ ]Loop, pick, and forceps
+- [ ] Pure culture of fungal isolates on PDA
+- [ ] 0.2 mL PCR tubes
+- [ ] P10, P200, P1000 micropipette with tips
+- [ ] DNA extraction kit (New England BioLabs, Monarch® Spin gDNA Extraction Kit, T3010S)
+- [ ] DNA quantification system (for example, Qubit Fluorometer with dsDNA HS Assay Kit, ThermoFisher, Q32851)
+- [ ] Ethanol jar for sterilizing tools
+- [ ] 70% ETOH
+- [ ] Thermomixer
+- [ ] NEB Q5 Hot Start High-Fidelity 2X Master Mix (M0494S) for PCR
+- [ ] ITS primer pair
+- [ ] Thermocycler
+- [ ] Nuclease free water for PCR
+- [ ] Loop, pick, and forceps
 
-#### Procedures
-1. Using the micropipette, aliquot 20 µL of ES into 0.2 mL snap-cap PCR tubes. We will run DNA extraction in duplicates, so fill two PCR tubes per culture.
-   NOTE: Label your tubes before adding ES. Label on both the cap and side of the tubes, so you can identify the samples as yours and can differentiate to which culture they belong.
-2. Place the tissue sample into the ES. Submerge and smash the sample against the tube wall if possible.
-   NOTE: be careful not to add any agar to the ES as this will impact the pH of the solution and the extraction of gDNA.
-3. Close the snap-caps and incubate at 65 °C for 10 minutes followed by 95 °C for 10 minutes.
-4. Using the micropipette, aliquot an equal volume of DS (20 µL) to your extracts. Ensure that you can still read the labels and store in the freezer until next week. We will use these extractions to amplify the fungal ITS rDNA region using PCR.
-
-### Part II: Polymerase Chain Reaction (PCR)
-
-#### Introduction to PCR
+#### Procedure
 The polymerase chain reaction (PCR), developed in the mid-1980s, amplifies a specific DNA region by creating millions or billions of copies by 'in vitro DNA replication'. It uses a thermostable form of bacterial DNA polymerase, the enzyme that copies DNA, isolated from Thermus aquaticum, a thermophilic bacterium isolated from a Yellowstone hot spring. This enzyme, 'Taq polymerase', is active at 72 °C and can withstand brief heating to 95 °C. Thus, the PCR reaction is an example of how environmental microbes have benefited biotechnology and revolutionized biology.
 
 The PCR reaction consists of mixing your template DNA with two primers: short sequences of DNA that are complementary to the ends of the region you want to amplify. The forward primer binds to one strand at the beginning of the region, and the reverse primer binds to the complementary strand at the end of the region. Primers are designed using computer databases of gene sequences, and synthesized chemically. In addition to the primers, Taq polymerase (or a synthetic polymerase enzyme), and your DNA, the PCR reaction also needs a buffer containing MgCl2 and dNTPs (the four bases of DNA). The reaction is run on a machine called a thermal cycler, which automatically heats the reaction first to 95 °C to melt the double-stranded DNA (break H-bonds between strands), then to about 53 °C to allow the primers to anneal to the template DNA, and finally to 72 °C to allow the polymerase to add dNTPs and extend the product. Typically, scientists run 25-35 cycles of this reaction, producing 225 - 235 copies of the target region.
 
-Figure 1: rDNA region containing the variable regions ITS-1 and ITS-2. Our forward primer (ITS-1F) will target a portion of the SSU and our reverse primer (ITS4) will target a portion of the LSU. Thereby, amplifying both variable regions and the 5.8S subunit.
+The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward primer (ITS-1F) will target a portion of the SSU and our reverse primer (ITS4) will target a portion of the LSU. Thereby, amplifying both variable regions and the 5.8S subunit.
 
-#### Materials
-- [ ] DNA extraction kit
-- [ ] Control DNA sample
-- [ ] 0.2 mL PCR tubes
-- [ ] P10 micropipette with tips
-- [ ] P20 micropipette with tips
-- [ ] P200 micropipette with tips
-- [ ] P1000 micropipette with tips
-- [ ] Master mix containing buffer (MgCl2, dNTPs, primers, polymerase enzyme)
-- [ ] PCR tube centrifuge
-- [ ] Thermal cycler
+1. Using a P1000 tip, gently scratch the fungal culture to collect a small amount of mycelium. 
+2. Transfer the collected mycelium to a PCR tube with 50 ul of water. Repeat this procedure for each of your isolates. Be sure to label your tubes with the name of the isolate and your name.
+3. Vortex to mix and then centrifuge briefly to collect the sample at the bottom of the tube.
+4. Place the tube in a thermocycler at 95 °C for 10 minutes and then 4 °C for 5 minutes. This will lyse the cells and release the DNA into the solution.
+5. Centrifuge the tube at maximum speed for 1 minute to pellet the cell debris.
+6. Carefully transfer 5 ul of the supernatant (which contains the DNA) to a new labeled PCR tube. 
+7. Create a mastermix with your group that includes the following components for each reaction (25 µL total volume):
+   - 12.50 µL of Q5 Hot Start High-Fidelity 2XMaster Mix
+   - 1.25 µL of forward primer (10 pmol/µL)
+   - 1.25 µL of reverse primer (10 pmol/µL)
+   - 5.00 µL of nuclease free water
 
-#### Procedures
-We will run 20 µL PCR reactions
-1. Add 18 µL of PCR master mix (contains PCR buffer, polymerase enzyme, dNTPs, and primers) to one PCR tube per sample. You can use the same pipette tip to aliquot master mix to PCR tubes.
-   **Caution:** Cap all PCR tubes when not in use to avoid cross-contamination.
+8. Aliquot 20 µL of your prepared mastermix into 0.2 mL snap-cap PCR tubes. 
+9. Add 5 µL of your extracted DNA to the PCR tube containing the mastermix. Be sure to use a new pipette tip for each sample to avoid cross-contamination.
+10. Place the tubes in the thermocycler and run the following program:
 
-   
-2. Dilute DNA 1:10 (2 µl of DNA + 18 µL of DS)
-3. Transfer 2 µL of your 1:10 diluted DNA to one PCR tube containing master mix.
-   NOTE: Only one sample per tube and make sure to use a fresh tip for each sample to avoid cross-contamination.
-4. Spin down your tubes before placing them in the thermal cycler. Run the reaction and observe the temperature cycles. After the reactions are finished, we will store your PCR products at -20 °C.
+| Step | Temperature (°C) | Time |
+| Initial Denaturation | 98°C | 30 seconds |
+| 25-35 Cycles | 98°C for 10 seconds; 60°C for 30 seconds; 72°C for 30 seconds |
+| Final Extension | 72°C | 2 minutes |
+11. After the PCR program is complete, store your PCR products at -20 °C until you are ready to run gel electrophoresis to verify the success of your PCR reaction.
+
 
 #### PCR Troubleshooting after Gel Electrophoresis
 1. No amplification on any samples: check primers, polymerase, and other reagents.
@@ -217,4 +214,5 @@ To identify the sequence you've produced and determine if it represents the spec
    - You may google the names and search under Wikipedia to get a better understanding of these organisms and what is known.
 
 ### Part VII: Data Management - Spreadsheets and iNaturalist
-[Content for this part would continue from the protocols, but it's cut off in the text]
+1. Create a spreadsheet to organize your data and metadata.
+   - Include columns for sample name, date collected, location, substrate, PCR results, Sanger sequencing results, BLAST results, and any other relevant information.
