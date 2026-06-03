@@ -158,7 +158,7 @@ Today, we will use gel electrophoresis to verify the success of our PCR reaction
 
 
 #### Gel Loading
-Watch this [video](https://www.youtube.com/watch?v=ZQy8h9n2XjE) for a demonstration of how to load a gel.
+Watch this [video](https://youtu.be/6_TtIGAm45w) for a demonstration of how to load a gel.
 
 1. In clean PCR strip tubes, combine 5 μL of your PCR product with 15 μL of loading dye. Mix by pipetting up and down. Be sure to use a new pipette tip for each sample to avoid cross-contamination.
 2. Label your tubes and make a map of your samples in your gel.
@@ -168,13 +168,15 @@ Watch this [video](https://www.youtube.com/watch?v=ZQy8h9n2XjE) for a demonstrat
 5. Be sure to reserve one well per row for a standardized DNA ladder.
 6. Run for about 10 minutes.
 
-> [!TIP]
-> Periodically check the migration of your PCR product across the gel to ensure it doesn't run off the other end of the gel.
-
+::: callout-caution
+Periodically check the migration of your PCR product across the gel to ensure it doesn't run off the other end of the gel.
+:::
 
 7. Visualize with UV backlight and take a photograph of your gel. You should see a band between 500-700 bp, which is the expected size of the ITS region.
-> [!IMPORTANT]
-> If you do not see a band, or if you see multiple bands, you may need to troubleshoot your PCR reaction. See the troubleshooting section above. Nevertheless, document your results and move on to the next step. You can still submit your PCR product for sequencing, but be sure to note the results of your gel electrophoresis in your lab notebook.
+
+::: callout-important
+If you do not see a band, or if you see multiple bands, you may need to troubleshoot your PCR reaction. See the troubleshooting section above. Nevertheless, document your results and move on to the next step. You can still submit your PCR product for sequencing, but be sure to note the results of your gel electrophoresis in your lab notebook.
+:::
 
 ### Part IV: PCR Cleanup
 In order to sequence PCR products, the primers and other contaminants must be removed.
