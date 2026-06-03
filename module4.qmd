@@ -52,6 +52,7 @@ This list may vary depending on your preferred extraction, amplification, and se
 - [ ] Nuclease-free water and 100% ethanol to prepare 80% ethanol for long-read sequencing
 
 **Dilute and Prepare PCR Primers**
+
 - [ ] Verify the primers are correct and received at 100 µM. Label the tubes as "Primer Stocks." 
 - [ ] Label the tube according to the primer being added.
 - [ ] Make 10 µM working stocks by diluting 20 µl of primer stock into 180 µl nuclease water. 
