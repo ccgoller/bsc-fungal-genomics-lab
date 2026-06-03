@@ -151,7 +151,7 @@ The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward pri
 | Final Extension | 72°C | 2 minutes |
 
 11. After the PCR program is complete, follow the Exo-CIP protocol to prepare your DNA for Sanger sequencing. Then, store your PCR products at -20 °C.
-12. Transfer 5.00 µl of PCR product to a new PCR tube and add 1.00 µl of Exo-CIP A and 1.00 µl of Exo-CIP B, respectively. The final volume is 7.00 µl. Mix thoroughly and briefly centrifuge at 1000 x g.
+12. Transfer 5.00 µl of PCR product to a new PCR tube and add 1.00 µl of Exo-CIP A and 1.00 µl of Exo-CIP B, respectively. The final volume is 7.00 µl. Mix thoroughly and briefly centrifuge at 1000 x g. **Perform this step in a clean area to avoid contamination of your PCR product. Prepare duplicate reactions for a forward and reverse primer set.**
 13. Incubate the reaction tube for 4 minutes at 37°C followed by 1 minute at 80°C. This will degrade the remaining primers and nucleotides and inactivate the Exo-CIP enzymes.
 14. Submit 5.00 µl of treated PCR product for sequencing with [Eton Biosciences](https://www.etonbio.com/).
 
