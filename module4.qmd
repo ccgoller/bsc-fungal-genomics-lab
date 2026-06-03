@@ -13,12 +13,12 @@
 This list may vary depending on your preferred extraction, amplification, and sequencing protocols.
 
 - [ ] Gloves
-- [ ] Sharpie
+- [ ] Sharpie or marker for labeling tubes
 - [ ] Thermal cycler
 - [ ] Vortex
 - [ ] Centrifuge for PCR and microfuge tubes
 - [ ] Heat block/thermomixer for 1.5-2.0 ml microfuge tubes
-- [ ] 1.5mL microcentrifuge tubes (Eppendorf DNA LoBind)
+- [ ] 1.5 mL microcentrifuge tubes (Eppendorf DNA LoBind)
 - [ ] 0.2 mL PCR tubes
 - [ ] Microfuge and PCR tube racks
 - [ ] Labeling tape
@@ -35,20 +35,19 @@ This list may vary depending on your preferred extraction, amplification, and se
 - [ ] PCR primers (ITS1f, ITS4, 5.8SR, fITS7) ordered from Integrated DNA Technologies (IDT) or similar supplier, normalized to 100 µM in TE buffer. The following primers are commonly used for fungal DNA barcoding:
    + ITS1f: 5’-CTTGGTCATTTAGAGGAAGTAA-3’
    + ITS4: 5’-TCCTCCGCTTATTGATATGC-3’
-   + 5.8SR: 5’-CGCTGCGTTCTTCATCG-3’
-   + fITS7: 5’-GTGARTCATCGAATCTTTG-3’
 - [ ] Q5® Hot Start High-Fidelity 2X Master Mix - 100 reactions(New England BioLabs, M0494S)
 - [ ] PCR water (New England BioLabs, B1500S)
 - [ ] Exo-CIP Rapid PCR Cleanup Kit - 100 reactions (New England BioLabs, E1050S)
 - [ ] E-Gel system with 1.2% agarose gels (ThermoFisher, G4010010) or similar gel electrophoresis system
-- [ ] E-Gel™ Sizing DNA Ladder (ThermoFisher, 10488100)
+- [ ] E-Gel™ 1kb Plus DNA Ladder (ThermoFisher, 10488018) or similar DNA ladder
+- [ ] E-Gel™ Loading Dye (ThermoFisher, 10488100)
 - [ ] DNA quantification system (for example, Qubit Fluorometer with dsDNA HS Assay Kit, ThermoFisher, Q32851)
 - [ ] Access to Sanger sequencing services (for example, Genewiz, Eurofins, Eton, or similar provider).
 - [ ] Rapid Barcoding Kit v14 (Oxford Nanopore Technologies), SQK-RBK114.24 or similar kit for long-read sequencing (optional)
 - [ ] MinION sequencing device
 - [ ] MinION flow cells (R10.4.1 or similar, Oxford Nanopore Technologies, FLO-MIN114)
-- [ ] Ultrapure BSA 50mg/ml (ThermoFisher, AM2616) for long-read sequencing
-- [ ] 1.5mL microcentrifuge tubes (Eppendorf DNA LoBind) for long-read sequencing
+- [ ] Ultrapure BSA 50 mg/ml (ThermoFisher, AM2616) for long-read sequencing
+- [ ] 1.5 mL microcentrifuge tubes (Eppendorf DNA LoBind) for long-read sequencing
 - [ ] Magnetic rack for 1.5ml microcentrifuge tubes (for example, ThermoFisher DynaMag-2, 12321D) for long-read sequencing
 - [ ] Nuclease-free water and 100% ethanol to prepare 80% ethanol for long-read sequencing
 
@@ -76,7 +75,7 @@ The purpose of this module is to identify fungal isolates using the Internal Tra
 2. Successfully PCR amplify fungal ITS
 3. Learn to BLAST ITS sequence to identify fungal isolates
 
-### Part I: ITS PCR Amplification
+### Part I: Amplification of the ITS rDNA Region using PCR
 
 #### Introduction
 We can use DNA sequencing of the fungal barcode region (ITS rDNA) to identify our isolates. To do this, you must:
@@ -87,7 +86,7 @@ We can use DNA sequencing of the fungal barcode region (ITS rDNA) to identify ou
 
 In this part of the module, you will extract DNA from your fungal isolates. There are many ways to isolate DNA from fungi. Here we will use a very simple approach: high heat to disrupt cells and release gDNA.
 
-#### Materials
+#### Materials and Equipment
 - [ ] Fungal isolates
 - [ ] P1000 micropipette tips (sterile)
 - [ ] 0.2 mL PCR tubes
@@ -97,7 +96,7 @@ In this part of the module, you will extract DNA from your fungal isolates. Ther
 - [ ] Sterile loops
 - [ ] DNA quantification system (for example, Qubit Fluorometer with dsDNA HS Assay Kit, ThermoFisher, Q32851)
 - [ ] Nuclease-free water
-- [ ] NEB Exo Cip™ Rapid PCR Cleanup Kit (New England BioLabs, E1050S)
+- [ ] NEB Exo-Cip™ Rapid PCR Cleanup Kit (New England BioLabs, E1050S)
 - [ ] Thermocycler capable of reaching 95 °C
 
 #### Procedures
@@ -115,10 +114,14 @@ The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward pri
 5. Centrifuge the tube at maximum speed for 1 minute to pellet the cell debris.
 6. Carefully transfer 5.00 ul of the supernatant (which contains the DNA) to a new labeled PCR tube. 
 7. Create a mastermix with your group that includes the following components for each reaction (50.00 µL total volume):
-   - 25.00 µL of Q5 Hot Start High-Fidelity 2X Master Mix
-   - 2.50 µL of forward primer (10 pmol/µL)
-   - 2.50 µL of reverse primer (10 pmol/µL)
-   - 10.00 µL of nuclease free water
+
+| Component | 50 µL Reaction | Final Concentration | Volume for 10 Reactions |
+|---|---|---|
+| Q5 Hot Start High-Fidelity 2X Master Mix | 25.00 µL | 1X | 250.00 µL |
+| ITS 1 Forward Primer | 2.50 µL | 10 µM | 25.00 µL |
+| ITS 4 Reverse Primer | 2.50 µL | 10 µM | 25.00 µL |
+| Nuclease-Free Water | 15.00 µL | - | 150.00 µL |
+
 
 8. Aliquot 45.00 µL of your prepared mastermix into 0.2 mL snap-cap PCR tubes. 
 9. Add 5.00 µL of your extracted DNA to the PCR tube containing the mastermix. Be sure to use a new pipette tip for each sample to avoid cross-contamination.
@@ -132,10 +135,10 @@ The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward pri
 | Extension (25-35 cycles) | 72°C | 30 seconds |
 | Final Extension | 72°C | 2 minutes |
 
-11. After the PCR program is complete, follow the ExoCIP protocol to prepare your DNA for Sanger sequencing. Then, store your PCR products at -20 °C.
+11. After the PCR program is complete, follow the Exo-CIP protocol to prepare your DNA for Sanger sequencing. Then, store your PCR products at -20 °C.
 12. Transfer 5.00 µl of PCR product to a new PCR tube and add 1.00 µl of Exo-CIP A and 1.00 µl of Exo-CIP B, respectively. The final volume is 7.00 µl. Mix thoroughly and briefly centrifuge at 1000 x g.
 13. Incubate the reaction tube for 4 minutes at 37°C followed by 1 minute at 80°C. This will degrade the remaining primers and nucleotides and inactivate the Exo-CIP enzymes.
-14. Submit 5.00 µl (in a range of 15-200 fmol) of treated PCR product for sequencing with Eton Biosciences.
+14. Submit 5.00 µl of treated PCR product for sequencing with Eton Biosciences.
 
 
 #### PCR Troubleshooting after Gel Electrophoresis
@@ -158,8 +161,9 @@ Today, we will use gel electrophoresis to verify the success of our PCR reaction
 
 
 #### Gel Loading
+::: callout-tip
 Watch this [video](https://youtu.be/6_TtIGAm45w) for a demonstration of how to load a gel.
-
+:::
 1. In clean PCR strip tubes, combine 5 μL of your PCR product with 15 μL of loading dye. Mix by pipetting up and down. Be sure to use a new pipette tip for each sample to avoid cross-contamination.
 2. Label your tubes and make a map of your samples in your gel.
 3. Load 20 μL of the DNA ladder into the first well of the gel. This will allow you to estimate the size of your PCR products.
@@ -178,11 +182,16 @@ Periodically check the migration of your PCR product across the gel to ensure it
 If you do not see a band, or if you see multiple bands, you may need to troubleshoot your PCR reaction. See the troubleshooting section above. Nevertheless, document your results and move on to the next step. You can still submit your PCR product for sequencing, but be sure to note the results of your gel electrophoresis in your lab notebook.
 :::
 
-### Part III: DNA Extraction for Nanopore Sequencing
+### Part III: DNA Isolation for Nanopore Sequencing
 We will use the recommended protocol for the Rapid Barcoding Kit v14 (SQK-RBK114.24) from Oxford Nanopore Technologies (ONT) to prepare our DNA for long-read sequencing on the MinION device. This protocol is designed for high-quality, high-molecular-weight DNA, so we will use the Monarch® Spin gDNA Extraction Kit (New England BioLabs, T3010S) to extract DNA from our fungal isolates.  
 
-Follow the manufacturer's instructions for DNA extraction, and then proceed with the Rapid Barcoding Kit protocol for library preparation and sequencing on the MinION device.
+Follow the [manufacturer's instructions for fungal DNA extraction](https://nanoporetech.com/document/extraction-method/fungi-gdna-no-miss), and then proceed with the Rapid Barcoding Kit protocol for library preparation and sequencing on the MinION device.
 
+You will perform the DNA extraction for your team's selected isolate in quadruplicate to ensure you have enough DNA for sequencing and to account for any potential issues during the extraction process. After extraction, you will quantify your DNA using a Qubit Fluorometer with the dsDNA HS Assay Kit to ensure you have sufficient DNA for library preparation. We will then decide whether to concentrate the DNA using a quick kit or to proceed directly to library preparation based on the DNA concentration and quality.
+
+::: callout-important
+This protocol has numerous steps and requires careful attention to detail. Follow each step carefully to ensure the best possible results. Work with your team to divide the tasks and support each other throughout the process. If you encounter any issues or have questions, don't hesitate to ask for help from your instructor or peers. Carefully check your work at each step to ensure that you are following the protocol correctly and to catch any potential errors early on.
+:::
 
 
 ### Part IV: Sanger Sequencing
@@ -221,4 +230,4 @@ Update your spreadsheet with the following information:
 - BLAST percent identity
 - BLAST query cover
 - BLAST E value
-- Notes on the BLAST results (e.g., what kind of fungi are these? Are
+- Notes on the BLAST results (e.g., what kind of fungi are these?)
