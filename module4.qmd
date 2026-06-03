@@ -5,7 +5,7 @@
 [Open Module 4 Slides](module4-slides.html)
 :::
 
-## Module 4.1 – ITS Amplification, Sanger Sequencing, Nanopore Sequencing Resources
+## Module 4.1 – Lab Prep Overview
 
 ### Laboratory Preparation Instructions
 
@@ -66,7 +66,7 @@ This list may vary depending on your preferred extraction, amplification, and se
 - [ ] Prepare materials for Sanger sequencing.
 - [ ] Prepare Oxford Nanopore Technologies (ONT) device, flow cell(s), and kit.
 
-## Module 4.2 – ITS Amplification and Sanger Sequencing
+## Module 4.2 – ITS Amplification for Sanger Sequencing
 
 ### Purpose
 The purpose of this module is to identify fungal isolates using the Internal Transcribed Spacer **(ITS)** rDNA region, also known as the fungal barcode. You will extract genomic DNA (gDNA) from your isolates, amplify the ITS rDNA using polymerase chain reaction (PCR), clean the PCR product, Sanger sequence the PCR product, and use the DNA sequence to obtain a name for your isolate.
@@ -116,13 +116,27 @@ The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward pri
 6. Carefully transfer 5.00 µl of the supernatant (which contains the DNA) to a new labeled PCR tube. 
 7. Create a mastermix with your group that includes the following components for each reaction (50.00 µL total volume):
 
-| Component | 50 µL Reaction | Final Concentration | Volume for 10 Reactions |
+| Component | 50 µL Reaction | Final Concentration |
 |---|---|---|
-| Q5 Hot Start High-Fidelity 2X Master Mix | 25.00 µL | 1X | 250.00 µL |
-| ITS 1 Forward Primer | 2.50 µL | 10 µM | 25.00 µL |
-| ITS 4 Reverse Primer | 2.50 µL | 10 µM | 25.00 µL |
-| Nuclease-Free Water | 15.00 µL | - | 150.00 µL |
+| Q5 Hot Start High-Fidelity 2X Master Mix | 25.00 µL | 1X |
+| ITS 1 Forward Primer | 2.50 µL | 10 µM |
+| ITS 4 Reverse Primer | 2.50 µL | 10 µM |
+| Nuclease-Free Water | 15.00 µL | - |
 
+::: callout-tip
+### Mastermix Preparation Tips
+- Always prepare a mastermix for multiple reactions to minimize pipetting errors and ensure consistency across samples.
+- Prepare a mastermix for 10 reactions, even if you have fewer samples (two isolates per group member = 2x4), to account for pipetting errors and to have extra volume for troubleshooting if needed.
+- Mix the mastermix thoroughly by pipetting up and down or vortexing gently, and then briefly centrifuge to collect the liquid at the bottom of the tube before aliquoting into PCR tubes.
+
+| Component | 50 µL Reaction | Volume for 10 Reactions |
+|---|---|---|
+| Q5 Hot Start High-Fidelity 2X Master Mix | 25.00 µL | 250.00 µL |
+| ITS 1 Forward Primer | 2.50 µL | 25.00 µL |
+| ITS 4 Reverse Primer | 2.50 µL | 25.00 µL |
+| Nuclease-Free Water | 15.00 µL | 150.00 µL |
+
+:::
 
 8. Aliquot 45.00 µL of your prepared mastermix into 0.2 mL snap-cap PCR tubes. 
 9. Add 5.00 µL of your extracted DNA to the PCR tube containing the mastermix. Be sure to use a new pipette tip for each sample to avoid cross-contamination.
@@ -139,7 +153,7 @@ The rDNA region containing the variable regions ITS-1 and ITS-2. Our forward pri
 11. After the PCR program is complete, follow the Exo-CIP protocol to prepare your DNA for Sanger sequencing. Then, store your PCR products at -20 °C.
 12. Transfer 5.00 µl of PCR product to a new PCR tube and add 1.00 µl of Exo-CIP A and 1.00 µl of Exo-CIP B, respectively. The final volume is 7.00 µl. Mix thoroughly and briefly centrifuge at 1000 x g.
 13. Incubate the reaction tube for 4 minutes at 37°C followed by 1 minute at 80°C. This will degrade the remaining primers and nucleotides and inactivate the Exo-CIP enzymes.
-14. Submit 5.00 µl of treated PCR product for sequencing with Eton Biosciences.
+14. Submit 5.00 µl of treated PCR product for sequencing with [Eton Biosciences](https://www.etonbio.com/).
 
 
 #### PCR Troubleshooting after Gel Electrophoresis
