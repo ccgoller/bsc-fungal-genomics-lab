@@ -207,7 +207,11 @@ We will use the recommended protocol for the Rapid Barcoding Kit v14 (SQK-RBK114
 ### Part I: DNA Extraction for Nanopore Sequencing
 Follow the [manufacturer's instructions for fungal DNA extraction](https://nanoporetech.com/document/extraction-method/fungi-gdna-no-miss), and then proceed with the Rapid Barcoding Kit protocol for library preparation and sequencing on the MinION device.
 
-You will perform the DNA extraction for your team's selected isolate in quadruplicate to ensure you have enough DNA for sequencing and to account for any potential issues during the extraction process. After extraction, you will quantify your DNA using a Qubit Fluorometer with the dsDNA HS Assay Kit to ensure you have sufficient DNA for library preparation. We will then decide whether to concentrate the DNA using a quick kit or to proceed directly to library preparation based on the DNA concentration and quality.
+You will perform the DNA extraction for your team's selected isolate in quadruplicate to ensure you have enough DNA for sequencing and to account for any potential issues during the extraction process. 
+
+You may have to use a swab to collect mycelium from your fungal culture and then transfer it to the extraction tube. Be sure to label your tubes clearly with the name of your isolate and your name.
+
+After extraction, you will quantify your DNA using a Qubit Fluorometer with the dsDNA HS Assay Kit to ensure you have sufficient DNA for library preparation. We will then decide whether to concentrate the DNA using a quick kit or to proceed directly to library preparation based on the DNA concentration and quality.
 
 ::: callout-important
 This protocol has numerous steps and requires careful attention to detail. Follow each step carefully to ensure the best possible results. Work with your team to divide the tasks and support each other throughout the process. If you encounter any issues or have questions, don't hesitate to ask for help from your instructor or peers. Carefully check your work at each step to ensure that you are following the protocol correctly and to catch any potential errors early on.
