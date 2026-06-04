@@ -389,19 +389,26 @@ Carlos C. Goller
 <li>After the PCR program is complete, follow the Exo-CIP protocol to prepare your DNA for Sanger sequencing. Then, store your PCR products at -20 °C.</li>
 <li>Transfer 5.00 µl of PCR product to a new PCR tube and add 1.00 µl of Exo-CIP A and 1.00 µl of Exo-CIP B, respectively. The final volume is 7.00 µl. Mix thoroughly and briefly centrifuge at 1000 x g. <strong>Perform this step in a clean area to avoid contamination of your PCR product. Prepare duplicate reactions for a forward and reverse primer set.</strong></li>
 <li>Incubate the reaction tube for 4 minutes at 37°C followed by 1 minute at 80°C. This will degrade the remaining primers and nucleotides and inactivate the Exo-CIP enzymes.</li>
-<li>Submit 5.00 µl of treated PCR product for sequencing with <a href="https://www.etonbio.com/">Eton Biosciences</a>.</li>
+<li>Submit 7.00 µl of treated PCR product for sequencing with <a href="https://www.etonbio.com/">Eton Biosciences</a>. Include 10 uM of the forward and reverse primers in separate tubes for sequencing. Be sure to label your tubes clearly with the name of your isolate and your name.</li>
 </ol>
-<h4 id="pcr-troubleshooting-after-gel-electrophoresis">PCR Troubleshooting after Gel Electrophoresis</h4>
-<ol type="1">
-<li>No amplification on any samples: check primers, polymerase, and other reagents.</li>
-<li>Positive control OK, but samples show no amplification: Try dilutions of samples to check for inhibitors. Try a control with a primer set for common organisms to check that you can PCR something. Check the DNA amount.</li>
-<li>Weak or multiple bands, smear: Mispriming from the incorrect program. Check primer concentration: an imbalance of primers can lead to multiple bands.</li>
-</ol>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Troubleshooting PCR</strong> 1. No amplification on any samples: check primers, polymerase, and other reagents. 2. Positive control OK, but samples show no amplification: Try dilutions of samples to check for inhibitors. Try a control with a primer set for common organisms to check that you can PCR something. Check the DNA amount. 3. Weak or multiple bands, smear: mispriming from the incorrect program. Check primer concentration: an imbalance of primers can lead to multiple bands.</p>
+</div>
+</div>
+</div>
 <h3 id="part-ii-gel-electrophoresis-and-pcr-cleanup">Part II: Gel Electrophoresis and PCR Cleanup</h3>
 <p>Gel electrophoresis is a technique used to separate and analyze DNA based on fragment sizes and to verify the success of PCR. Gel electrophoresis separates DNA molecules based on size by applying an electrical current to either side of the gel. Since DNA is negatively charged, we load our DNA on the positive side of the gel to allow it to run toward the positive side of the gel when power is applied. The agarose gel allows the separation of DNA fragments based on size as the polysaccharide matrix acts as a sieve allowing small fragments to migrate faster and larger fragments slower.</p>
 <p>Today, we will use gel electrophoresis to verify the success of our PCR reaction. We are looking for PCR product bands between</p>
 <h4 id="prepare-the-e-gel-and-gel-electrophoresis-system">Prepare the E-Gel and Gel Electrophoresis System</h4>
-<h4 id="materials-needed">Materials Needed</h4>
+<h4 id="materials-and-equipment-2">Materials and Equipment</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">1% E-Gel™ EX precast gels (or 1.2% E-Gel) to visualize PCR products</label></li>
 <li><label><input type="checkbox">E-Gel™ 1kb Plus DNA Ladder (ThermoFisher, 10488018) or similar DNA ladder</label></li>
@@ -430,6 +437,8 @@ Carlos C. Goller
 <li>Dip pipette tip into the well very carefully, without piercing through the gel. Depress the pipette slowly. Too much pressure or speed will force the sample out of the well. Without releasing the plunger, draw out the pipette. If you release the plunger, you will draw your sample back into the pipette.</li>
 <li>Be sure to reserve one well per row for a standardized DNA ladder.</li>
 <li>Run for about 10 minutes.</li>
+<li>Visualize and check the migration of your PCR product across the gel every few minutes to ensure it doesn’t run off the other end of the gel. You should see a band between 500-700 bp, which is the expected size of the ITS region.</li>
+<li>Take an image of your gel using the UV backlight. Be sure to include the DNA ladder in the image for size reference.</li>
 </ol>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -461,9 +470,10 @@ Carlos C. Goller
 </div>
 </div>
 </section>
-<section id="module-4.3-dna-isolation-for-nanopore-sequencing" class="slide level2">
+<section id="module-4.3-dna-isolation-for-nanopore-sequencing" class="slide level2 scrollable">
 <h2>Module 4.3 – DNA Isolation for Nanopore Sequencing</h2>
 <p>We will use the recommended protocol for the Rapid Barcoding Kit v14 (SQK-RBK114.24) from Oxford Nanopore Technologies (ONT) to prepare our DNA for long-read sequencing on the MinION device. This protocol is designed for high-quality, high-molecular-weight DNA, so we will use the Monarch® Spin gDNA Extraction Kit (New England BioLabs, T3010S) to extract DNA from our fungal isolates.</p>
+<h3 id="part-i-dna-extraction-for-nanopore-sequencing">Part I: DNA Extraction for Nanopore Sequencing</h3>
 <p>Follow the <a href="https://nanoporetech.com/document/extraction-method/fungi-gdna-no-miss">manufacturer’s instructions for fungal DNA extraction</a>, and then proceed with the Rapid Barcoding Kit protocol for library preparation and sequencing on the MinION device.</p>
 <p>You will perform the DNA extraction for your team’s selected isolate in quadruplicate to ensure you have enough DNA for sequencing and to account for any potential issues during the extraction process. After extraction, you will quantify your DNA using a Qubit Fluorometer with the dsDNA HS Assay Kit to ensure you have sufficient DNA for library preparation. We will then decide whether to concentrate the DNA using a quick kit or to proceed directly to library preparation based on the DNA concentration and quality.</p>
 <div class="callout callout-important callout-titled callout-style-default">
@@ -479,6 +489,48 @@ Carlos C. Goller
 </div>
 </div>
 </div>
+<h3 id="part-ii-dna-quantification-and-quality-assessment">Part II: DNA Quantification and Quality Assessment</h3>
+<p>After extracting DNA from your fungal isolates, it is crucial to quantify the DNA concentration and assess its quality before proceeding with library preparation for sequencing. This step ensures that you have sufficient DNA for successful sequencing and that the DNA is of good quality, which can impact the sequencing results.</p>
+<h4 id="materials-and-equipment-3">Materials and Equipment</h4>
+<ul class="task-list">
+<li><label><input type="checkbox">Qubit Fluorometer (ThermoFisher, Q33238) or similar DNA quantification device</label></li>
+<li><label><input type="checkbox">Quibit tubes and standards for the dsDNA HS Assay Kit</label></li>
+<li><label><input type="checkbox">Qubit dsDNA HS Assay Kit (ThermoFisher, Q32851) or similar high-sensitivity DNA quantification kit</label></li>
+<li><label><input type="checkbox">Nuclease-free water<br>
+</label></li>
+<li><label><input type="checkbox">1.5 mL microcentrifuge tubes (Eppendorf DNA LoBind) for dilutions</label></li>
+<li><label><input type="checkbox">P10, P20, and P200 micropipette with tips for accurate pipetting of small volumes</label></li>
+</ul>
+<h4 id="procedures-1">Procedures</h4>
+<ol type="1">
+<li>Prepare the Qubit working solution according to the manufacturer’s instructions for the dsDNA HS Assay Kit. This typically involves diluting the Qubit reagent in the provided buffer to create a working solution.</li>
+<li>Prepare the Qubit standards by diluting the provided DNA standards to create a standard curve for quantification. This involves creating two standards.</li>
+<li>Quantify 1.00 µL of each of your DNA samples using the Qubit fluorometer by combining with 199.00 µL of 1X Qubit working solution.</li>
+</ol>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Carefully pipette the small volume of DNA sample (1.00 µL) to ensure accuracy in quantification. Use a P10 micropipette for this step, and make sure to mix the sample with the working solution thoroughly before measurement.</p>
+</div>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Vortex the for 2-3 seconds and place in a dark drawer for 2 minutes to allow the dye to bind to the DNA.</li>
+<li>Measure the fluorescence of each sample using the Qubit fluorometer, and record the DNA concentration in ng/µL for each sample.</li>
+<li>Record the DNA concentration for each sample in your lab notebook and class spreadsheet. This information will be important for determining whether you need to concentrate your DNA before library preparation and for troubleshooting any issues that may arise during sequencing.</li>
+<li>Use the nanospectrophotometer to assess the purity of your DNA samples by measuring the absorbance at 260 nm and 280 nm. The A260/A280 ratio should ideally be around 1.8 for pure DNA. Record these values in your lab notebook and class spreadsheet as well. Remember to blank the spectrophotometer with the appropriate buffer (NEB Elution Buffer) before measuring 1.00 µL of your samples.</li>
+</ol>
+<h3 id="part-iii-library-preparation-and-sequencing">Part III: Library Preparation and Sequencing</h3>
+<p>Follow the Rapid Barcoding Kit v14 (SQK-RBK114.24) protocol from Oxford Nanopore Technologies for library preparation and sequencing on the MinION device. This protocol includes steps for DNA fragmentation, end repair, barcoding, and loading the library onto the flow cell for sequencing. Be sure to follow each step carefully and to use the appropriate controls and standards as recommended by the manufacturer.</p>
+<p>We will “barcode” our samples using the Rapid Barcoding Kit, which allows us to multiplex multiple samples on a single flow cell. This means that we can sequence multiple fungal isolates in the same run and then demultiplex the data later to separate the sequences by sample based on their unique barcodes. Keep track of the barcodes you use for each sample, as this information will be crucial for data analysis after sequencing.</p>
+<p>We will run the MinION device for 48-72 hours to generate long-read sequencing data for our fungal isolates. After sequencing, we will analyze the data to assemble the genomes and analyze the ITS region. We will then compare sequences to reference sequences in databases for species identification.</p>
+<p><strong>Protocols can be accessed here:</strong> - <a href="https://nanoporetech.com/document/protocols/rapid-barcoding-kit-v14-protocol">Rapid Barcoding Kit v14 Protocol</a> - <a href="https://nanoporetech.com/document/extraction-method/fungi-gdna-no-miss">Fungal DNA Extraction Protocol</a></p>
 </section>
 <section id="module-4.4-sanger-sequence-analysis-and-species-identification" class="slide level2 scrollable">
 <h2>Module 4.4 – Sanger Sequence Analysis and Species Identification</h2>
@@ -486,7 +538,7 @@ Carlos C. Goller
 <h3 id="identify-your-sequence-data-using-blast">Identify your sequence data using BLAST</h3>
 <p>To identify the sequence you’ve produced and determine if it represents the specimen you’ve sequenced and not some other contaminant, you can compare the sequence to a database of reference sequences. This is from the National Center for Biotechnology Information’s (NCBI) Genbank database.</p>
 <ol type="1">
-<li>Go to NCBI: https://www.ncbi.nlm.nih.gov/.</li>
+<li>Go to <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a>.</li>
 <li>Click on “BLAST” in the right-hand column under “Popular Resources.”
 <ul>
 <li>BLAST = Basic Local Alignment Search Tool</li>
