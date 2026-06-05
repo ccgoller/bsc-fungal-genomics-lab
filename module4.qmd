@@ -265,7 +265,7 @@ To identify the sequence you've produced and determine if it represents the spec
 3. Click on the Nucleotide BLAST image.
    - There are numerous BLAST options depending on the data you are working with. The two basics are nucleotides and amino acid (=Protein) sequence BLASTS. The blastx and blastn options allow you to convert these sequences into the complementary format.
 4. Paste your sequence data into the big space under "Enter Query Sequence".
-   - Open your FASTA file and select your sequences. This is the DNA sequence from the beginning of the ">" symbol, all the way to the end (e.g., the beginning of the next ">" symbol).
+   - Open your .seq file and select your sequences. Select sequences without "Ns". Ns represent bases that could not be identified during sequencing and will not be useful for BLAST comparisons.
 5. Under Choose Search Set you can keep it under "Standard databases (nr etc.)".
    - You can come back and re-perform the BLAST using the "rRNA/ITS databases". After selecting this, choose "Internal transcribed spacer region (ITS) from Fungi type and reference material". This will be a much narrower database and set of comparisons, but the confidence in the results providing a correct ID will be *MUCH* higher.
 6. Select the "BLAST" button at the end.
@@ -277,7 +277,19 @@ To identify the sequence you've produced and determine if it represents the spec
    - What is the "top hit"?
    - How much support is provided for this hit given the current database used?
    - What is the taxonomic ID of this result? What kind of fungi are these?
-   - You may google the names and search under Wikipedia to get a better understanding of these organisms and what is known.
+   - You may Google the names and search under Wikipedia to get a better understanding of these organisms and what is known.
+
+:::callout-important
+**Important Note on BLAST Results**
+Document your findings and update your spreadsheet with the following information:
+- Isolate name
+- ITS sequence
+- BLAST top hit
+- BLAST percent identity   
+- BLAST query cover
+- BLAST E value
+- Notes on the BLAST results (e.g., what kind of fungi are these?)
+:::
 
 ## Module 4.5 – Data Management - Spreadsheets and iNaturalist
 Update your spreadsheet with the following information:
